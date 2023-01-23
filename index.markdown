@@ -20,7 +20,7 @@ entries_layout: list
 ---
 
 <div class="quoty-text">
-I am interested in <b>AI research & development</b> for real-world problems. I've studied <b>deep learning, numerical simulation, and tensorization methods</b>. I've explored advanced deep learning algorithms and led AI projects for <b> off-highway autonomous systems</b>.
+I work for <b>AI research & development for real-world problems</b>. I am currently developing <b>real-time AI computer vision (CV) systems</b> on edge hardware such as the NVIDIA Jetson family, but I am also interested in <b>natural language processing (NLP)</b> and <b>simulated image/video generation</b> application with AI.
 </div>
 <hr>
 <div>
