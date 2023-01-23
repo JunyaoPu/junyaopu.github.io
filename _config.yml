@@ -10,7 +10,7 @@ minimal_mistakes_skin: "contrast"
 
 # Site settings
 locale:         "en-US"
-title:          "Junyao's Personal Page"
+title:          "Junyao's Research & Development Page"
 name:           "Junyao Pu"
 description:    "description"
 baseurl:        "" # the subpath of your site, e.g. /blog
