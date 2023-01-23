@@ -20,7 +20,7 @@ entries_layout: list
 ---
 
 <div class="quoty-text">
-I work at the intersection of <b>physics, math and computer science</b> researching <b> simulation, computer graphics and AI</b>.
+I am interested in <b>AI research & development<b> for real-world problems. I've studied <b>deep learning, numerical simulation, and tensorization methods<b>. I've explored advanced deep learning algorithms and led AI projects for <b>off-highway autonomous systems<b>.
 </div>
 <hr>
 <div>
