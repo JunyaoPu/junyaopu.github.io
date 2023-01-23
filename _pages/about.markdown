@@ -6,7 +6,7 @@ author_profile: true
 #classes: wide
 #toc: true
 ---
-I am a machine learning engineer. 
+I am a AI/ML engineer. 
 
 For my study, I obtained my M.Sc in electrical engineering from the University of Manitoba, my graduate research was focused on deep learning algorithms, and tensor decomposition methods. Please see my thesis <a href="https://mspace.lib.umanitoba.ca/handle/1993/36582">Design and implementation of a convolutional neural network using tensor-train decomposition<a/> for details.
 
