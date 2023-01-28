@@ -24,9 +24,19 @@ For more detailed information, please refer to our thesis available online on ms
 
 # Sample dataset
 In my graduate project, I used the TerraByte dataset, which includes images of various crop plants and weeds found in Manitoba, Canada, for training and testing a plant classification problem using a convolutional neural network. The dataset includes a large number of images with labels for various plants such as canola, soybean, wheat, and foxtail, in different formats such as RGB, hyperspectral, and 3D point clouds. These images were used to train and test our novel tensor-train formulation of the convolutional neural network, which was trained using a Bayesian training algorithm. Our approach aims to address the issue of memory consumption in handling high-dimensional data and improve the efficiency of the neural network by reducing its size and simplifying the computation in the forward process.
+<style>
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  min-width: 30%;
+  max-width: 50%;
+  width: 50vw;
+}
+</style>
 <img class="center" src="/assets/images/project_CNN_data.png" alt="Sample of my training dataset."> 
 
-Our novel tensor-train formulation of the convolutional layer in neural networks significantly reduces the size of the network by 20x, making it more efficient for memory-constrained devices and faster to train and infer..
+Our novel tensor-train formulation of the convolutional layer in neural networks significantly reduces the size of the network by 20x, making it more efficient for memory-constrained devices and faster to train and infer.
 
 
 
