@@ -1,0 +1,41 @@
+---
+layout: single
+title:  "The Monte Carlo Simulation of TRASE MRI"
+date:   2022-01-01 00:43:00 -0500
+collection: projects
+author_profile: true
+toc: true
+classes: wide
+header:
+    teaser: /assets/images/project_MRI.png
+---
+
+My graduate project introduces a new formulation of the convolutional layer in neural networks and a new training algorithm using Bayesian inference to address the issue of memory consumption in handling high-dimensional data. The proposed Bayesian TensorNet (BTN) provides a compressed network size and simplifies the computation in the neural network forward process.
+
+# Motivation
+In recent years, artificial neural networks (ANNs) have shown great success in various fields, but the use of expensive hardware and long training and inference times limit their application on cheap or portable devices. One solution to this problem is the tensor-train decomposition method, which decomposes a high-order tensor into lower-order tensor cores with fast tensor operations. The method has been used in the past to represent fully connected layers and convolutional layers, but our proposed approach is a more general tensor-train formulation of the convolutional layer that can handle tensors of any dimension and is not limited to matrix-matrix multiplication. This will help to reduce the overall size of the ANN and speed up training and inference time.
+
+# My Contribution
+Our new formulation of the convolutional layer is based on the tensor-train decomposition method, which decomposes a high-dimensional tensor into lower-dimensional tensor cores for faster computation. Our novel tensor-train representation of the convolutional layer is more general and versatile than previous methods, allowing for more efficient computation and reducing the overall size of the neural network. Additionally, we trained our network using a Bayesian training algorithm, which is an alternative to the traditional backpropagation algorithm. This approach allowed us to address the issue of memory consumption in handling high-dimensional data, and improve the performance of our network on a plant classification problem. Overall, our contribution is the development of a more efficient and effective tensor-train formulation of the convolutional layer and the use of a Bayesian training algorithm for improved performance.
+
+# Project Details
+For more detailed information, please refer to our thesis available online on mspace <a href="https://mspace.lib.umanitoba.ca/handle/1993/36582">Design and implementation of a convolutional neural network using tensor-train decomposition</a>
+
+# Sample dataset
+In my graduate project, I used the TerraByte dataset, which includes images of various crop plants and weeds found in Manitoba, Canada, for training and testing a plant classification problem using a convolutional neural network. The dataset includes a large number of images with labels for various plants such as canola, soybean, wheat, and foxtail, in different formats such as RGB, hyperspectral, and 3D point clouds. These images were used to train and test our novel tensor-train formulation of the convolutional neural network, which was trained using a Bayesian training algorithm. Our approach aims to address the issue of memory consumption in handling high-dimensional data and improve the efficiency of the neural network by reducing its size and simplifying the computation in the forward process.
+<style>
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  min-width: 30%;
+  max-width: 50%;
+  width: 50vw;
+}
+</style>
+<img class="center" src="/assets/images/project_CNN_data.png" alt="Sample of my training dataset."> 
+
+Our novel tensor-train formulation of the convolutional layer in neural networks significantly reduces the size of the network by 20x, making it more efficient for memory-constrained devices and faster to train and infer.
+
+
+
