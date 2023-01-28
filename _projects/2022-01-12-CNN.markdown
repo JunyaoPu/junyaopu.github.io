@@ -7,6 +7,8 @@ collection: projects
 author_profile: true
 toc: true
 classes: wide
+header:
+    teaser: /assets/images/project_CNN.png
 ---
 
 This is my graduate project.
