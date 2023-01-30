@@ -1,6 +1,6 @@
 ---
 layout: single
-title:  "An GPU-accelerated Monte Carlo Simulator for
+title:  "A GPU-accelerated Monte Carlo Simulator for
 Optical Coherence Tomography"
 date:   2022-02-01 00:43:00 -0500
 collection: projects
