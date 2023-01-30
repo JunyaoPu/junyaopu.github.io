@@ -9,7 +9,7 @@ classes: wide
 header:
     teaser: /assets/images/project_coil.png
 ---
-This was an undergraduate summer project at the University of Winnipeg, supervised by Dr. Christopher Bidinosti and Dr. Jeff Martin. Over two summers, I designed, built, and tested a self-shielded solenoid using Wolfram Mathematica simulation, a 3-axis gantry, and Python programming.
+This was an undergraduate summer project at the University of Winnipeg, supervised by Dr. Christopher Bidinosti and Dr. Jeff Martin. Over two summers, I designed, built, and tested a self-shielded solenoid using Wolfram Mathematica simulation, a 3-axis gantry system, and Python programming.
 
 # Research Goal
 The Neutron Electric Dipole Moment (EDM) experiment at TRIUMF is a physics experiment that measures the permanent electric dipole moment of a neutron. The results of this experiment can help in determining the intrinsic asymmetry of subatomic particles and provide insight into the violation of fundamental symmetries in nature, such as time-reversal symmetry. The neutron EDM experiment is a key tool in searching for physics beyond the standard model and the presence of new physics beyond the current understanding of the universe. However, the experiment requires a solenoid to generate a homogeneous internal magnetic field with no external field.
