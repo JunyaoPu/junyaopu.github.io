@@ -20,7 +20,7 @@ entries_layout: list
 ---
 
 <div class="quoty-text">
-I work for <b>AI research & development</b> for real-world problems. I am currently developing real-time AI <b>computer vision (CV)</b> systems on edge hardware such as the NVIDIA Jetson family, but I am also interested in <b>natural language processing (NLP)</b> and <b>simulated image/video generation</b> application with AI.
+I work for <b>AI research & development</b>. I am currently developing real-time AI <b>computer vision (CV)</b> systems on edge hardware such as the NVIDIA Jetson family, but I am also interested in <b>natural language processing (NLP)</b> and <b>simulated image/video generation</b> application with AI.
 </div>
 <hr>
 <div>
