@@ -11,7 +11,7 @@ header:
     teaser: /assets/images/project_CNN.png
 ---
 
-My graduate project introduces a new formulation of the convolutional layer in neural networks and a new training algorithm using Bayesian inference to address the issue of memory consumption in handling high-dimensional data. The proposed Bayesian TensorNet (BTN) provides a compressed network size and simplifies the computation in the neural network forward process.
+This was my master's project that introduced a new formulation of the convolutional layer in neural networks and a new training algorithm using Bayesian inference to address the issue of memory consumption in handling high-dimensional data. The proposed Bayesian TensorNet (BTN) provides a compressed network size and simplifies the computation in the neural network forward process.
 
 # Introduction
 In recent years, artificial neural networks (ANNs) have shown great success in various fields, but the use of expensive hardware and long training and inference times limit their application on cheap or portable devices. One solution to this problem is the tensor-train decomposition method, which decomposes a high-order tensor into lower-order tensor cores with fast tensor operations. The method has been used in the past to represent fully connected layers and convolutional layers, but our proposed approach is a more general tensor-train formulation of the convolutional layer that can handle tensors of any dimension and is not limited to matrix-matrix multiplication. This will help to reduce the overall size of the ANN and speed up training and inference time.
