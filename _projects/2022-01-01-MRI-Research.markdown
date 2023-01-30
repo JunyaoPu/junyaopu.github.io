@@ -27,9 +27,9 @@ Here is the poster I created for a research competition at university. It descri
   display: block;
   margin-left: auto;
   margin-right: auto;
-  min-width: 30%;
-  max-width: 50%;
-  width: 50vw;
+  min-width: 80%;
+  max-width: 80%;
+  width: 80vw;
 }
 </style>
 <img class="center" src="/assets/images/project_MRI_poster.png" alt="Sample of my training dataset."> 
