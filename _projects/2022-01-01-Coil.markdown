@@ -1,0 +1,39 @@
+---
+layout: single
+title:  "Design of a Self-Shielded Solenoid for Neutron EDM Experiment at TRIUMF"
+date:   2022-01-02 00:43:00 -0500
+collection: projects
+author_profile: true
+toc: true
+classes: wide
+header:
+    teaser: /assets/images/project_coil.png
+---
+This was an undergraduate summer project at the University of Winnipeg, supervised by Drs. Christopher Bidinosti and Jeff Martin. Over two summers, I designed, built, and tested a self-shielded solenoid using Wolfram Mathematica simulation, a 3-axis gantry, and Python programming.
+
+# Research Goal
+The Neutron Electric Dipole Moment (EDM) experiment at TRIUMF is a physics experiment that measures the permanent electric dipole moment of a neutron. The results of this experiment can help in determining the intrinsic asymmetry of subatomic particles and provide insight into the violation of fundamental symmetries in nature, such as time-reversal symmetry. The neutron EDM experiment is a key tool in searching for physics beyond the standard model and the presence of new physics beyond the current understanding of the universe. However, the experiment requires a solenoid to generate a homogeneous internal magnetic field with no external field.
+
+# My Contribution
+My contribution to the Neutron Electric Dipole Moment (EDM) experiment was a successful build and test of a self-shielded solenoid. The internal field homogeneity was optimized to sixth order around the solenoid isocenter at z=0. I generated and simulated contour plots of the optimized solenoid's internal field.
+
+# Project Details
+The design approach is based on the theoretical solution of a solenoid inside a superconducting shell that perfectly confines the magnetic field. The simulation finds the wire placement by removing higher-order terms in the magnetic field solution.
+
+# Project Poster
+This is my research competition poster at the university. It demonstrates how we simulated the solenoid and calculated the magnetic field homogeneity. We successfully built the solenoid with a highly uniform magnetic field along the center axis and no external field leakage.
+<style>
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  min-width: 80%;
+  max-width: 80%;
+  width: 80vw;
+}
+</style>
+<img class="center" src="/assets/images/project_coil_poster.png" alt="Sample of my training dataset."> 
+
+
+
+
