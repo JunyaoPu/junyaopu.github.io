@@ -85,4 +85,27 @@ sudo apt-get install -y nvidia-docker2
 ```bash
 sudo docker run --rm --gpus all nvidia/cuda:11.6.2-base-ubuntu20.04 nvidia-smi
 ```
+<a href="https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/install-guide.html">Nvidia-Docker Installation Guide</a>
+
+## Pull Nvidia PyTorch container
+```bash
+sudo docker pull nvcr.io/nvidia/pytorch:21.12-py3
+```
+<a href="https://catalog.ngc.nvidia.com/orgs/nvidia/containers/pytorch">Nvidia-PyTorch docker images</a>
+
+## Run the Docker container
+```bash
+sudo docker run --shm-size=10240m -it -p 8000:8000 --gpus all -v /home/ubuntu/my_code:/workspace nvcr.io/nvidia/pytorch:21.12-py3
+```
+
+## Run the Jupyter notebook inside the Docker container
+```bash
+jupyter notebook --no-browser --port=8000
+```
+
+Open the jupyter notebook UI on your local browser with link
+http://localhost:8000/
+
+#Optional: Setup AWS S3 bucket with the EC2 instance
+
 
