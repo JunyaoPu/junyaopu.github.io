@@ -10,9 +10,9 @@ header:
 ---
 
 # Motivation  
-I was mainly using my local machine or remote server at university for my AI development. Upon joining my first job, our company shifted everything to the cloud, including my AI work. So, I started learning how to use AWS Sagemaker, EC2, and S3 bucket for our AI pipeline. Initially, we used Sagemaker for our AI work, but we found it to be more expensive and restrictive, with limitations such as hardware inquiry and limited space. As a result, we switched to using EC2, a cloud remote server that offers more freedom for development and a lower cost.
+I previously used local machines or university servers for AI development. Upon joining my first job, the company moved everything to the cloud, including my AI work. I learned to use AWS Sagemaker, EC2, and S3 bucket for our AI pipeline. We initially used Sagemaker, but found it expensive and restrictive with hardware limitations and limited space. Thus, we switched to EC2, a more cost-effective and flexible cloud remote server.
 
-I developed a pipeline that creates a simple EC2 instance and sets up my AI development environment with NVIDIA GPU driver, Docker, PyTorch, and Jupyter notebook. This is very convenient as I can quickly and easily establish a cloud machine for my AI work.
+I created a pipeline that creates a simple EC2 instance and sets up an AI development environment with NVIDIA GPU driver, Docker, PyTorch, and Jupyter notebook. This makes it quick and easy to establish a cloud machine for AI work.
 
 # The pipeline
 
