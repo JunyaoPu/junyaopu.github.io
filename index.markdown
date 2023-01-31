@@ -20,7 +20,9 @@ entries_layout: list
 ---
 
 <div class="quoty-text">
-I work for <b>AI research & development</b>. I am currently developing real-time AI <b>computer vision (CV)</b> systems on edge hardware such as the NVIDIA Jetson family, but I am also interested in <b>natural language processing (NLP)</b> and <b>simulated image/video generation</b> application with AI.
+
+I am employed in <b>AI research and development</b>. My focus is on creating <b>real-time AI computer vision systems</b> for edge hardware, such as the NVIDIA Jetson family. Additionally, I have a keen interest in <b>natural language processing</b> and <b>AI-powered simulated image and video generation</b>."
+
 </div>
 <hr>
 <div>
