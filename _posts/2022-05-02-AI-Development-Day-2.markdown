@@ -8,23 +8,48 @@ classes: wide
 header:
     teaser: /assets/images/ai_day2/post_ai_s3.png
 ---
+# Motivation  
+When developing AI projects on the cloud, we often need to transfer trained models or large datasets to the cloud server. The simplest way to transfer files is by using SCP, but it can be too slow for transferring files with multiple gigabytes in size. By utilizing an AWS S3 bucket with the awscli, we can effectively transfer and store large files in the S3 bucket.
 
-# To set up AWS S3 with an EC2 instance
-1.Create an S3 bucket to store the data you wish to transfer.
+# The pipeline
 
-2.Connect to your EC2 instance using SSH.
+## Install AWS CLI
 
-3.Install the AWS CLI on your EC2 instance.
+```
+sudo apt-get update
+sudo apt-get install awscli
+aws  --version
+```
 
-4.Configure the AWS CLI with your AWS Access Key and Secret Access Key.
+## Create an access key ID on AWS
+<a href="https://docs.aws.amazon.com/powershell/latest/userguide/pstools-appendix-sign-up.html">AWS Account and Access Keys</a>
 
-5.Test the connection by running a simple AWS CLI command, such as "aws s3 ls".
+1 Open the IAM console at <a href="https://console.aws.amazon.com/iam/">the IAM console</a>
 
-6.Use AWS CLI commands to transfer files between your EC2 instance and S3 bucket.
+2 On the navigation menu, choose Users.
+
+3 Choose your IAM user name (not the check box).
+
+4 Open the Security credentials tab, and then choose Create access key.
+
+5 To see the new access key, choose Show. Your credentials resemble the following:
+
+6 To download the key pair, choose Download .csv file. Store the .csv file with keys in a secure location.
+
+## Configure AWS access on your system
+
+```
+aws configure
+```
 
 ## To upload a file to S3 from EC2
 ```
 aws s3 cp /path/to/local/file s3://my-bucket/path/to/s3/file
+```
+
+## To sync a file to S3 from EC2
+```
+aws s3 cp sync /path/to/local/file s3://my-bucket/path/to/s3/file
 ```
 
 ## To download a file from S3 to EC2
