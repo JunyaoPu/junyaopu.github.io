@@ -108,6 +108,12 @@ jupyter notebook --no-browser --port=8000
 Open the jupyter notebook UI on your local browser with link
 http://localhost:8000/
 
-##Optional: Setup AWS S3 bucket with the EC2 instance
+# Achievements
+After reading this post
 
+* You should able to create a AWS EC2 instance with a single NVIDIA GPU.
+* The docker container has NVIDIA GPU enabled, PyTorch and Jupyter notebook install.
+* You should able to start your AI development on the Jupyter notebook on your local browser.
 
+# What's next
+Setting up the AWS S3 bucket with the EC2 instance, so we could quickly transfer files/dataset by using AWS s3 bucket instead of ssh.
