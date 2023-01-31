@@ -40,6 +40,12 @@ p4 - A100 with 40 Gb - from 32.77/h
 
 5 Launch instance with a .pem key, save the .pem key for ssh
 
+## First time access the EC2 instance
+
 ```bash
-git clone -b my-branch git@github.com:user/myproject.git
+chmod 600 ./AWS_EC2_ML.pem
 ```
+```bash
+ssh -L 8000:localhost:8000 -i AWS_EC2_ML.pem ubuntu@EC2_Public_IPv4_address
+```
+
