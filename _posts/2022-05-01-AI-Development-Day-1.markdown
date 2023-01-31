@@ -14,7 +14,9 @@ I was mainly using my local machine or remote server at university for my AI dev
 
 I developed a pipeline that creates a simple EC2 instance and sets up my AI development environment with NVIDIA GPU driver, Docker, PyTorch, and Jupyter notebook. This is very convenient as I can quickly and easily establish a cloud machine for my AI work.
 
-# AWS recommended GPU Instances
+# The pipeline
+
+## AWS recommended GPU Instances
 G3 - Nvidia Tesla M60 GPU only 8 Gb memory - from 0.75/h
 
 G4 - (G4dn) Nvidia T4 GPU with 16 Gb memory - from 0.526/h
@@ -29,7 +31,7 @@ p4 - A100 with 40 Gb - from 32.77/h
 
 <a href="https://docs.aws.amazon.com/dlami/latest/devguide/gpu.html">Recommended GPU Instances for AWS EC2</a>
 
-# Setting up on EC2
+## Setting up on EC2
 1 Launch instance
 
 2 Pick "Ubuntu Server 20.04 LTS (HVM), SSD Volume Type"
@@ -40,7 +42,7 @@ p4 - A100 with 40 Gb - from 32.77/h
 
 5 Launch instance with a .pem key, save the .pem key for ssh
 
-## First time access the EC2 instance
+### First time access the EC2 instance
 
 ```bash
 chmod 600 ./AWS_EC2_ML.pem
@@ -49,7 +51,7 @@ chmod 600 ./AWS_EC2_ML.pem
 ssh -L 8000:localhost:8000 -i AWS_EC2_ML.pem ubuntu@EC2_Public_IPv4_address
 ```
 
-# Install Nvidia driver
+## Install Nvidia driver
 
 ```bash
 apt search nvidia-driver
@@ -59,7 +61,7 @@ sudo apt install nvidia-driver-510
 sudo reboot
 ```
 
-## Check the GPU information
+### Check the GPU information
 ```bash
 nvidia-smi
 ```
@@ -81,24 +83,24 @@ distribution=$(. /etc/os-release;echo $ID$VERSION_ID) \
 sudo apt-get update
 sudo apt-get install -y nvidia-docker2
 ```
-## Check the Nvidia-Docker is installed
+### Check the Nvidia-Docker is installed
 ```bash
 sudo docker run --rm --gpus all nvidia/cuda:11.6.2-base-ubuntu20.04 nvidia-smi
 ```
 <a href="https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/install-guide.html">Nvidia-Docker Installation Guide</a>
 
-## Pull Nvidia PyTorch container
+### Pull Nvidia PyTorch container
 ```bash
 sudo docker pull nvcr.io/nvidia/pytorch:21.12-py3
 ```
 <a href="https://catalog.ngc.nvidia.com/orgs/nvidia/containers/pytorch">Nvidia-PyTorch docker images</a>
 
-## Run the Docker container
+### Run the Docker container
 ```bash
 sudo docker run --shm-size=10240m -it -p 8000:8000 --gpus all -v /home/ubuntu/my_code:/workspace nvcr.io/nvidia/pytorch:21.12-py3
 ```
 
-## Run the Jupyter notebook inside the Docker container
+### Run the Jupyter notebook inside the Docker container
 ```bash
 jupyter notebook --no-browser --port=8000
 ```
@@ -106,6 +108,6 @@ jupyter notebook --no-browser --port=8000
 Open the jupyter notebook UI on your local browser with link
 http://localhost:8000/
 
-#Optional: Setup AWS S3 bucket with the EC2 instance
+##Optional: Setup AWS S3 bucket with the EC2 instance
 
 
