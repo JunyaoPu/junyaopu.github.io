@@ -49,3 +49,40 @@ chmod 600 ./AWS_EC2_ML.pem
 ssh -L 8000:localhost:8000 -i AWS_EC2_ML.pem ubuntu@EC2_Public_IPv4_address
 ```
 
+# Install Nvidia driver
+
+```bash
+apt search nvidia-driver
+sudo apt update
+sudo apt upgrade
+sudo apt install nvidia-driver-510
+sudo reboot
+```
+
+## Check the GPU information
+```bash
+nvidia-smi
+```
+# Install Nvidia-Docker
+```bash
+curl https://get.docker.com | sh \
+  && sudo systemctl --now enable docker
+```
+
+```bash
+distribution=$(. /etc/os-release;echo $ID$VERSION_ID) \
+      && curl -fsSL https://nvidia.github.io/libnvidia-container/gpgkey | sudo gpg --dearmor -o /usr/share/keyrings/nvidia-container-toolkit-keyring.gpg \
+      && curl -s -L https://nvidia.github.io/libnvidia-container/$distribution/libnvidia-container.list | \
+            sed 's#deb https://#deb [signed-by=/usr/share/keyrings/nvidia-container-toolkit-keyring.gpg] https://#g' | \
+            sudo tee /etc/apt/sources.list.d/nvidia-container-toolkit.list
+```
+
+```bash
+sudo apt-get update
+sudo apt-get install -y nvidia-docker2
+```
+## Check the Nvidia-Docker is installed
+```bash
+sudo docker run --rm --gpus all nvidia/cuda:11.6.2-base-ubuntu20.04 nvidia-smi
+```
+
