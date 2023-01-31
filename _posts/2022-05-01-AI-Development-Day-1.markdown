@@ -6,7 +6,7 @@ categories: AI
 collection: AI
 classes: wide
 header:
-    teaser: /assets/images/ai_day1/day1_screenshot.png
+    teaser: /assets/images/ai_day1/post_ai_aws.jpg
 ---
 
 # Motivation  
