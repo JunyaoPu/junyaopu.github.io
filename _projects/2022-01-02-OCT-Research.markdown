@@ -1,7 +1,7 @@
 ---
 layout: single
 title:  "A GPU-accelerated Monte Carlo Simulator for
-Optical Coherence Tomography"
+Optical Coherence Tomography (OCT)"
 date:   2022-01-02 00:43:00 -0500
 collection: projects
 author_profile: true
