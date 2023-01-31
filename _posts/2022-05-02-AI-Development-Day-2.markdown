@@ -1,12 +1,12 @@
 ---
 layout: single
-title:  "AI Dev Day 1: Set up AWS S3 with an EC2 instance"
+title:  "AI Dev Day 2: Set up AWS S3 with an EC2 instance"
 date:   2022-05-02- 00:43:00 -0500
 categories: AI
 collection: AI
 classes: wide
 header:
-    teaser: /assets/images/ai_day1/day1_screenshot.png
+    teaser: /assets/images/ai_day2/post_ai_s3.png
 ---
 
 # To set up AWS S3 with an EC2 instance
