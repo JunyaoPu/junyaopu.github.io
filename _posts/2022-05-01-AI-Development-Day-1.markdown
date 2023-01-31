@@ -17,6 +17,8 @@ I created a pipeline that creates a simple EC2 instance and sets up an AI develo
 # The pipeline
 
 ## AWS recommended GPU Instances
+<a href="https://docs.aws.amazon.com/dlami/latest/devguide/gpu.html">Recommended GPU Instances for AWS EC2</a>
+
 G3 - Nvidia Tesla M60 GPU only 8 Gb memory - from 0.75/h
 
 G4 - (G4dn) Nvidia T4 GPU with 16 Gb memory - from 0.526/h
@@ -29,7 +31,6 @@ P3 - V100 with 32 Gb - from 3.06/h
 
 p4 - A100 with 40 Gb - from 32.77/h
 
-<a href="https://docs.aws.amazon.com/dlami/latest/devguide/gpu.html">Recommended GPU Instances for AWS EC2</a>
 
 ## Setting up on EC2
 1 Launch instance
@@ -46,8 +47,7 @@ p4 - A100 with 40 Gb - from 32.77/h
 
 ```bash
 chmod 600 ./AWS_EC2_ML.pem
-```
-```bash
+
 ssh -L 8000:localhost:8000 -i AWS_EC2_ML.pem ubuntu@EC2_Public_IPv4_address
 ```
 
@@ -66,6 +66,8 @@ sudo reboot
 nvidia-smi
 ```
 # Install Nvidia-Docker
+<a href="https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/install-guide.html">Nvidia-Docker Installation Guide</a>
+
 ```bash
 curl https://get.docker.com | sh \
   && sudo systemctl --now enable docker
@@ -87,13 +89,13 @@ sudo apt-get install -y nvidia-docker2
 ```bash
 sudo docker run --rm --gpus all nvidia/cuda:11.6.2-base-ubuntu20.04 nvidia-smi
 ```
-<a href="https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/install-guide.html">Nvidia-Docker Installation Guide</a>
 
 ### Pull Nvidia PyTorch container
+<a href="https://catalog.ngc.nvidia.com/orgs/nvidia/containers/pytorch">Nvidia-PyTorch docker images</a>
+
 ```bash
 sudo docker pull nvcr.io/nvidia/pytorch:21.12-py3
 ```
-<a href="https://catalog.ngc.nvidia.com/orgs/nvidia/containers/pytorch">Nvidia-PyTorch docker images</a>
 
 ### Run the Docker container
 ```bash
@@ -116,4 +118,4 @@ After reading this post
 * Start your AI development in the Jupyter notebook on your local browser.
 
 # What's next
-"Configure an AWS S3 bucket in conjunction with the EC2 instance to efficiently transfer files/datasets using AWS S3 instead of SSH.
+Configure an AWS S3 bucket in conjunction with the EC2 instance to efficiently transfer files/datasets using AWS S3 instead of SSH.
