@@ -40,4 +40,6 @@ p4 - A100 with 40 Gb - from 32.77/h
 
 5 Launch instance with a .pem key, save the .pem key for ssh
 
-
+```bash
+git clone -b my-branch git@github.com:user/myproject.git
+```
