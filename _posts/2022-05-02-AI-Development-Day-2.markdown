@@ -1,6 +1,6 @@
 ---
 layout: single
-title:  "AI Dev Day 2: Set up AWS S3 with an EC2 instance"
+title:  "AI Dev Day 2: Setup AWS S3 with an EC2 instance"
 date:   2022-05-02- 00:43:00 -0500
 categories: AI
 collection: AI
