@@ -16,7 +16,17 @@ The history of Artificial Neural Networks (ANN) can be traced back to the 1940s 
 
 The LeNet model, introduced by Yann LeCun in 1998, was designed for the recognition of handwritten digits, such as those found in the MNIST dataset. The MNIST dataset contains 70,000 images of handwritten digits, ranging from 0 to 9, with their corresponding labels. It is widely used as a benchmark for evaluating the performance of different image classification algorithms. The images are 28x28 pixels in size and are grayscale, with pixel values ranging from 0 (black) to 255 (white).
 
-{% include figure image_path="/assets/images/ai_day3/MNIST.png" alt="MNIST dataset" %}
+<style>
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  min-width: 30%;
+  max-width: 50%;
+  width: 50vw;
+}
+</style>
+<img class="center" src="/assets/images/ai_day3/MNIST.png" alt="MNIST dataset."> 
 
 Due to its simplicity and accessibility, the MNIST dataset is considered a "hello world" of machine learning and is a popular starting point for learning and experimenting with image recognition techniques.
 
