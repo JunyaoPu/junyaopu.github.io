@@ -14,11 +14,11 @@ I earned my M.Sc in Electrical Engineering from the University of Manitoba, with
 
 Selected Graduate-Level Course:
 
-&nbsp;&nbsp;&nbsp;-Deep Learning with Convolutional Neural Networks (A Grade)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-Deep Learning with Convolutional Neural Networks (A Grade)
 
-&nbsp;&nbsp;&nbsp;-Estimation Theory (A Grade)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-Estimation Theory (A Grade)
 
-&nbsp;&nbsp;&nbsp;-Advanced Signal Processing (A Grade)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-Advanced Signal Processing (A Grade)
 
 
 Please contact me for my CV or reach out on <a href="https://www.linkedin.com/in/junyao-pu-6a4b741ab/">LinkedIn<a/>.
