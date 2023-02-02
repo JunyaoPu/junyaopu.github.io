@@ -67,6 +67,10 @@ The VGG network was introduced in 2014 by researchers at the University of Oxfor
 </style>
 <img class="center" src="/assets/images/ai_day3/VGG_16.png" alt="VGG-16"> 
 
+The use of small filters and a larger number of convolutional layers in the VGG network results in a deeper architecture compared to AlexNet. This allows it to capture more complex features in images, leading to improved accuracy in image classification tasks. Additionally, VGG has fewer parameters than AlexNet, making it easier to train and less susceptible to overfitting.
+
+So, it can be concluded that deeper networks tend to have better performance. However, why not make the VGG network deeper? Although the VGG network can be made deeper, it suffers from the vanishing gradient problem. The vanishing gradient problem occurs when the gradients of the parameters during backpropagation become very small, making it difficult for the network to train. To overcome this issue, researchers from Microsoft Research employed various techniques, such as skip connections and batch normalization, in the design of ResNet, enabling the network to have a depth of up to 152 layers, which is 8 times deeper than VGG nets, while still maintaining lower complexity.
+
 # <a href="https://arxiv.org/pdf/1512.03385.pdf">ResNet</a> (2015)
 
 
