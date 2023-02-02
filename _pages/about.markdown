@@ -15,9 +15,7 @@ I earned my M.Sc in Electrical Engineering from the University of Manitoba, with
 Selected Graduate-Level Course:
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Deep Learning with Convolutional Neural Networks (A Grade)
-
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Estimation Theory (A Grade)
-
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Advanced Signal Processing (A Grade)
 
 
