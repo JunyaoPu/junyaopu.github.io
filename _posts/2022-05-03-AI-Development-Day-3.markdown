@@ -13,6 +13,9 @@ The history of Artificial Neural Networks (ANN) can be traced back to the 1940s 
 
 # LeNet (1998)
 <a href="http://vision.stanford.edu/cs598_spring07/papers/Lecun98.pdf">LeNet</a>
+The LeNet was first introduced by Yann LeCun in 1998 for handwritten digit recognition, such as the MNIST dataset.
+{% include figure image_path="/assets/images/ai_day3/MNIST.png" alt="MNIST dataset" %}
+
 
 # AlexNet (2012)
 <a href="https://proceedings.neurips.cc/paper/2012/file/c399862d3b9d6b76c8436e924a68c45b-Paper.pdf">AlexNet</a>
