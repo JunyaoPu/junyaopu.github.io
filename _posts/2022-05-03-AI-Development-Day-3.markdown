@@ -31,12 +31,12 @@ Due to its simplicity and accessibility, the MNIST dataset is considered a "hell
 
 Although LeNet was a groundbreaking model that had a significant impact on the development of deep learning and computer vision, it is not as widely used today due to the lack of good datasets for training the model and the advancement of GPUs and distributed computing, which have enabled the training of larger models with increased capacity and performance.
 
-# AlexNet (2012)
-<a href="https://proceedings.neurips.cc/paper/2012/file/c399862d3b9d6b76c8436e924a68c45b-Paper.pdf">AlexNet</a>
+# <a href="https://proceedings.neurips.cc/paper/2012/file/c399862d3b9d6b76c8436e924a68c45b-Paper.pdf">AlexNet</a> (2012)
 
-# VGG (2015)
-<a href="https://arxiv.org/pdf/1409.1556.pdf">VGG</a>
 
-# ResNet (2015)
-<a href="https://arxiv.org/pdf/1512.03385.pdf">ResNet</a>
+# <a href="https://arxiv.org/pdf/1409.1556.pdf">VGG</a> (2015)
+
+
+# <a href="https://arxiv.org/pdf/1512.03385.pdf">ResNet</a> (2015)
+
 
