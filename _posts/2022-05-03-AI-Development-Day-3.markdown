@@ -53,7 +53,7 @@ Although AlexNet was a significant achievement in deep learning and computer vis
 
 # <a href="https://arxiv.org/pdf/1409.1556.pdf">VGG</a> (2014)
 
-The VGG network was introduced in 2014 by researchers at the University of Oxford and is well-known for its outstanding performance in image classification. The VGG-16 model won the ImageNet recognition challenge in 2014 with a top 5 error rate of 7.3%. The VGG architecture features multiple stacks of convolutional layers followed by one or more fully connected layers, which is similar to AlexNet, but deeper and has fewer parameters. Additionally, VGG uses small filters (3x3) and a large number of convolutional layers, resulting in increased depth and improved feature representation.
+The VGG network was introduced in 2014 by researchers at the University of Oxford and is well-known for its outstanding performance in image classification. The VGG-16 model won the ImageNet recognition challenge in 2014 with a top 5 error rate of 7.3%. The VGG architecture features multiple stacks of convolutional layers followed by one or more fully connected layers, which is similar to AlexNet, but deeper and has fewer parameters. Additionally, VGG uses small filters (3x3) and a large number of convolutional layers, resulting in increased depth and improved feature representation. The architecture of VGG-16 is given below.
 
 <style>
 .center {
