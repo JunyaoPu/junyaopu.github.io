@@ -20,7 +20,7 @@ Selected Graduate-Level Course:
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Advanced Signal Processing (A Grade)
 
-\textbf{Please contact me for my CV or reach out on }href="https://www.linkedin.com/in/junyao-pu-6a4b741ab/">LinkedIn<a/>.
+Please contact me for my CV or reach out on href="https://www.linkedin.com/in/junyao-pu-6a4b741ab/">LinkedIn<a/>.
 
 Email: <pujunyao7789@gmail.com>  
 
