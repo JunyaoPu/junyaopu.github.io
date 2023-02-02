@@ -12,6 +12,12 @@ I joined <a href="https://northstar-robotics.com/">Northstar Robotics<a/> in 202
 
 I earned my M.Sc in Electrical Engineering from the University of Manitoba, with a focus on deep learning and tensor decomposition methods. My graduate research involved designing and implementing a convolutional neural network using tensor-train decomposition, as detailed in my thesis.<a href="https://mspace.lib.umanitoba.ca/handle/1993/36582">Design and implementation of a convolutional neural network using tensor-train decomposition<a/>
 
+Selected courses
+    Graduate Level: Deep Learning with Convolutional Neural (A Grade)
+Networks
+                    Estimation Theory (A Grade)
+                    Advanced Signal Processing (A Grade)
+
 Please contact me for my CV or reach out on <a href="https://www.linkedin.com/in/junyao-pu-6a4b741ab/">LinkedIn<a/>.
 
 Email: <pujunyao7789@gmail.com>  
