@@ -51,8 +51,21 @@ The success of AlexNet was achieved through the use of large-scale training data
 
 Although AlexNet was a significant achievement in deep learning and computer vision, it had some limitations, including its simple architecture with only convolutional and fully connected layers and its tendency to overfit due to its large number of parameters across the 8 layers. To address these limitations, the VGG network was developed using smaller filters and a deeper network architecture, which helped to overcome the overfitting issue seen in AlexNet.
 
-# <a href="https://arxiv.org/pdf/1409.1556.pdf">VGG</a> (2015)
+# <a href="https://arxiv.org/pdf/1409.1556.pdf">VGG</a> (2014)
 
+The VGG network was introduced in 2014 by researchers at the University of Oxford and is well-known for its outstanding performance in image classification. The VGG-16 model won the ImageNet recognition challenge in 2014 with a top 5 error rate of 7.3%. The VGG architecture features multiple stacks of convolutional layers followed by one or more fully connected layers, which is similar to AlexNet, but deeper and has fewer parameters. Additionally, VGG uses small filters (3x3) and a large number of convolutional layers, resulting in increased depth and improved feature representation.
+
+<style>
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  min-width: 30%;
+  max-width: 50%;
+  width: 50vw;
+}
+</style>
+<img class="center" src="/assets/images/ai_day3/VGG_16.png" alt="VGG-16"> 
 
 # <a href="https://arxiv.org/pdf/1512.03385.pdf">ResNet</a> (2015)
 
