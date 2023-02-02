@@ -73,7 +73,7 @@ So, it can be concluded that deeper networks tend to have better performance. Ho
 
 # <a href="https://arxiv.org/pdf/1512.03385.pdf">ResNet</a> (2015)
 
-The ResNet, introduced in 2015 by researchers at Microsoft Research, uses residual connections to address the vanishing gradients problem and enable the network to learn residual functions. This allows ResNet to have much deeper architectures, such as ResNet-152, bit without suffering from the vanishing gradients problem. The residual connections also make it easier to train ResNet on large datasets, leading to improved performance in image classification tasks. The ResNet-152 model won the ImageNet recognition challenge in 2015 with a top 5 error rate of 3.57%. Below is an example of a residual block with bottlenecking.
+The ResNet, introduced in 2015 by researchers at Microsoft Research, uses residual connections to address the vanishing gradients problem and enable the network to learn residual functions. This allows ResNet to have much deeper architectures, such as ResNet-152, bit without suffering from the vanishing gradients problem. The residual connections also make it easier to train ResNet on large datasets, leading to improved performance in image classification tasks. The ResNet-152 model won the ImageNet recognition challenge in 2015 with a top 5 error rate of 3.57%. Below is an example of a residual block with bottlenecking for .
 
 <style>
 .center {
@@ -86,4 +86,6 @@ The ResNet, introduced in 2015 by researchers at Microsoft Research, uses residu
 }
 </style>
 <img class="center" src="/assets/images/ai_day3/Residual_block.png" alt="Residual block"> 
+
+While advanced CNNs like VGG and ResNet have achieved excellent performance in image classification problems, they can also be used in other areas of computer vision, such as segmentation and object detection. For example, Unet, DeepLab, Faster-RCNN, and YOLO use VGG or ResNet as the backbone to extract features from images or videos.
 
