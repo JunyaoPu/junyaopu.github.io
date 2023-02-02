@@ -1,6 +1,6 @@
 ---
 layout: single
-title:  "AI Dev Day 3: CNNs from LeNet (1998) to ResNet (2015)"
+title:  "AI Dev Day 3: CNNs from LeNet to ResNet"
 date:   2022-05-04- 00:43:00 -0500
 categories: AI
 collection: AI
