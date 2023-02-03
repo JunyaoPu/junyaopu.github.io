@@ -18,10 +18,8 @@ Graduate-Level Course:<br />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Advanced Signal Processing (Grade A)<br />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Digital Signal Processing (Grade A)
 
-
-Please contact me for my CV or reach out on <a href="https://www.linkedin.com/in/junyao-pu-6a4b741ab/">LinkedIn<a/>.
+**Please contact me for my CV or reach out on** <a href="https://www.linkedin.com/in/junyao-pu-6a4b741ab/">LinkedIn<a/>.
 
 Email: <pujunyao7789@gmail.com>  
 
-**re-**doing smth 
 
