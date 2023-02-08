@@ -11,4 +11,18 @@ header:
 # Introduction  
 
 
+<style>
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  min-width: 80%;
+  max-width: 80%;
+  width: 50vw;
+}
+</style>
+<img class="center" src="/assets/images/research_day1/sheet_1.png" alt="sheet_1"> 
+
+
+
 
