@@ -1,6 +1,6 @@
 ---
 layout: single
-title:  "AI Dev Day 5: Object Detection Model with YOLO"
+title:  "AI Dev Day 5: Object Detection Model with YOLO Farmily"
 date:   2022-05-04- 00:43:00 -0500
 categories: AI
 collection: AI
