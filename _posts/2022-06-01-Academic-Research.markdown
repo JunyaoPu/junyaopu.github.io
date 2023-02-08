@@ -1,6 +1,6 @@
 ---
 layout: single
-title:  "A Cheat Sheet on My Master's Thesis"
+title:  "Research Day 1: A Cheat Sheet for My Master's Thesis"
 date:   2022-06-01- 00:43:00 -0500
 categories: Research
 collection: Research
