@@ -31,6 +31,8 @@ this can be expanding to a 5th order tensor like
 The TT representation of this 5th order tensor (images) can be show as
 <img class="center" src="/assets/images/research_day2/image_tt.png" alt="image_tt"> 
 
+this can be show by using tensor graphical representation
+<img class="center" src="/assets/images/research_day2/tensor_to_tt.png" alt="tensor_to_tt"> 
 
 On the other hand, a batch of M filters (J_1 x J_2 x C) could be represented by a 4th order tensor as well.
 <img class="center" src="/assets/images/research_day2/Filter_tensor.png" alt="Filter_tensor"> 
