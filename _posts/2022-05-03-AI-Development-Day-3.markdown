@@ -92,8 +92,8 @@ While advanced CNNs like VGG and ResNet have achieved excellent performance in i
 # Achievements
 After reading the post and paper provided in the links
 
-* You should have a good understanding of how the CNNs evolve and how we improved the CNNs performance on image classification problem.
+* Have a good understanding of how the CNNs evolve and how we improved the CNNs performance on image classification problem.
 
 # What's next
-Now we are able to deal with image classification problem with CNNs. Let's dive into segmentation problem for computer vision!
+We are able to deal with image classification problem with CNNs. Let's dive into segmentation problem for computer vision!
 

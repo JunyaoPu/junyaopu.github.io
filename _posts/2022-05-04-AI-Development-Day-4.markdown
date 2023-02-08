@@ -61,8 +61,8 @@ The upsampling reverses the operation, but tries to train the transposed convolu
 # Achievements
 After reading the post and paper provided in the links
 
-* You should have a strong understanding of what Fully Convolutional Networks (FCNs) are and how the U-Net architecture is applied to address segmentation challenges.
+* Have a strong understanding of what Fully Convolutional Networks (FCNs) are and how the U-Net architecture is applied to address segmentation challenges.
 
 # What's next
-After gaining an understanding of FCNs and U-Net, you may also want to explore object detection challenges using deep learning or hands-on projects focused on segmentation challenges.
+After gaining an understanding of FCNs and U-Net, we may also want to explore object detection challenges using deep learning or hands-on projects focused on segmentation challenges.
 

@@ -113,9 +113,9 @@ http://localhost:8000/
 # Achievements
 After reading the post and information provided in the links
 
-* You should be able to create an AWS EC2 instance with NVIDIA GPUs.
+* Able to create an AWS EC2 instance with NVIDIA GPUs.
 * Run a Docker container with enabled NVIDIA GPUs, PyTorch, and Jupyter notebook installed.
-* Start your AI development in the Jupyter notebook on your local browser.
+* Start AI development in the Jupyter notebook on the local browser.
 
 # What's next
 Configure an AWS S3 bucket in conjunction with the EC2 instance to efficiently transfer files/datasets using AWS S3 instead of SSH.

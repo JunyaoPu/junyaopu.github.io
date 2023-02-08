@@ -59,8 +59,8 @@ aws s3 cp s3://my-bucket/path/to/s3/file /path/to/local/file
 # Achievements
 After reading the post and information provided in the links
 
-* You should be able to transfer files efficiently and freely between your local/cloud machine and an AWS S3 bucket.
+* Able to transfer files efficiently and freely between the local/cloud machine and an AWS S3 bucket.
 
 # What's next
-Now that we have set up a cloud storage and machine on AWS, let's dive into deep learning!
+Have set up a cloud storage and machine on AWS, let's dive into deep learning!
 
