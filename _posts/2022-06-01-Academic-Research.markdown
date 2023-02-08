@@ -8,8 +8,13 @@ classes: wide
 header:
     teaser: /assets/images/research_day1/TT_Conv.png
 ---
-This is made with LaTeX due to its excellent equation formatting.
+# Project Details
+For more detailed information, please refer to my master's thesis available online on mspace <a href="https://mspace.lib.umanitoba.ca/handle/1993/36582">Design and implementation of a convolutional neural network using tensor-train decomposition</a>
 
+Or the project post on my personal page <a href="https://junyaopu.github.io/projects/">Junyao's Research & Development Page - Projects </a>
+
+# Formulation
+This is made with LaTeX due to its excellent equation formatting.
 <style>
 .center {
   display: block;
