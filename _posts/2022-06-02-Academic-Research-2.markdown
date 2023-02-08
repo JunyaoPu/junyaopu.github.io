@@ -26,14 +26,41 @@ The concept behind the final formulation in my thesis was to expand the tensor d
 <img class="center" src="/assets/images/research_day2/Image_tensor.png" alt="Image_tensor"> 
 
 this can be expanding to a 5th order tensor like
+<style>
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  min-width: 20%;
+  max-width: 20%;
+  width: 50vw;
+}
 </style>
 <img class="center" src="/assets/images/research_day2/Image_tensor_2.png" alt="Image_tensor_2"> 
 
 A batch of M filters (J_1 x J_2 x C) could be represented by a 4th order tensor as well.
+<style>
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  min-width: 20%;
+  max-width: 20%;
+  width: 50vw;
+}
 </style>
 <img class="center" src="/assets/images/research_day2/Filter_tensor.png" alt="Filter_tensor"> 
 
 this 4th order tensor will be expanded to a be 5th order tensor as well
+<style>
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  min-width: 20%;
+  max-width: 20%;
+  width: 50vw;
+}
 </style>
 <img class="center" src="/assets/images/research_day2/Filter_tensor_2.png" alt="Filter_tensor_2"> 
 
