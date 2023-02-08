@@ -18,8 +18,8 @@ The concept behind the final formulation in my thesis was to expand the tensor d
   display: block;
   margin-left: auto;
   margin-right: auto;
-  min-width: 20%;
-  max-width: 20%;
+  min-width: 50%;
+  max-width: 50%;
   width: 50vw;
 }
 </style>
@@ -31,8 +31,8 @@ this can be expanding to a 5th order tensor like
   display: block;
   margin-left: auto;
   margin-right: auto;
-  min-width: 20%;
-  max-width: 20%;
+  min-width: 50%;
+  max-width: 50%;
   width: 50vw;
 }
 </style>
@@ -44,8 +44,8 @@ The TT representation of this 5th order tensor (images) can be show as
   display: block;
   margin-left: auto;
   margin-right: auto;
-  min-width: 70%;
-  max-width: 70%;
+  min-width: 50%;
+  max-width: 50%;
   width: 50vw;
 }
 </style>
@@ -58,8 +58,8 @@ On the other hand, a batch of M filters (J_1 x J_2 x C) could be represented by 
   display: block;
   margin-left: auto;
   margin-right: auto;
-  min-width: 20%;
-  max-width: 20%;
+  min-width: 50%;
+  max-width: 50%;
   width: 50vw;
 }
 </style>
@@ -71,8 +71,8 @@ this 4th order tensor will be expanded to a be 5th order tensor as well
   display: block;
   margin-left: auto;
   margin-right: auto;
-  min-width: 20%;
-  max-width: 20%;
+  min-width: 50%;
+  max-width: 50%;
   width: 50vw;
 }
 </style>
@@ -84,8 +84,8 @@ The TT representation of this 5th order tensor (filters) can be show as
   display: block;
   margin-left: auto;
   margin-right: auto;
-  min-width: 10%;
-  max-width: 10%;
+  min-width: 50%;
+  max-width: 50%;
   width: 50vw;
 }
 </style>
