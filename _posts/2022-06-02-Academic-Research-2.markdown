@@ -31,10 +31,10 @@ this can be expanding to a 5th order tensor
 the TT representation of this 5th order tensor (images) can be show as
 <img class="center" src="/assets/images/research_day2/image_tt.png" alt="image_tt"> 
 
-it also can be show by using tensor graphical representation
+it also can be show by using the tensor graphical representation
 <img class="center" src="/assets/images/research_day2/tensor_to_tt.png" alt="tensor_to_tt"> 
 
-On the other hand, a batch of M filters (J_1 x J_2 x C) could be represented by a 4th order tensor as well.
+On the other hand, a batch of M filters (J_1 x J_2 x C) could be represented by a 4th order tensor as well
 <img class="center" src="/assets/images/research_day2/Filter_tensor.png" alt="Filter_tensor"> 
 
 this 4th order tensor will be expanded into a be 5th order tensor
@@ -48,7 +48,7 @@ By utilizing both the TT representations of the images and filters, the fully ov
 or
 <img class="center" src="/assets/images/research_day2/result_ptt.png" alt="result_ptt"> 
 
-the tensor graphical representation of the computational process given by
+the tensor graphical representation of the computational process given by following diagram
 <img class="center" src="/assets/images/research_day2/tt_computation.png" alt="tt_computation"> 
 
 Finally, By reconstructing the original tensor from those TT cores, we will obtain the result or activation map with a single computation, rather than one map at a time as given by the initial formulation.
