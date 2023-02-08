@@ -9,7 +9,7 @@ header:
     teaser: /assets/images/ai_day5/YOLO.png
 ---
 # Introduction  
-Object detection is a computer vision task that involves finding and locating objects within images or videos. Deep learning is often used to tackle object detection challenges by using neural networks to identify objects and draw bounding boxes around them. Some popular deep learning models for object detection include Faster R-CNN, YOLO (You Only Look Once), and RetinaNet. YOLO is considered to be the best object detection model for edge devices, such as the NVIDIA Jetson family, due to its simple implementation and fast inference speed.
+Object detection is a computer vision task that involves finding and locating objects within images or videos. Deep learning is often used to tackle object detection challenges by using neural networks to identify objects and draw bounding boxes around them. Some popular deep learning models for object detection include Faster R-CNN, YOLO, and RetinaNet. YOLO is considered to be the best object detection model for edge devices, such as the NVIDIA Jetson family, due to its simple implementation and fast inference speed.
 
 # YOLO Farmily
 
@@ -21,7 +21,7 @@ Object detection is a computer vision task that involves finding and locating ob
 
 ## <a href="https://arxiv.org/pdf/2004.10934.pdf">YOLO V4 (2020)</a>
 
-## WHY I DO NOT LIKE/TRUST YOLOV5
+## WHY I DO NOT LIKE / TRUST YOLOV5
 As a scientific researcher, I prefer that any work is documented and available through a publicly accessible paper. Currently, there is no paper to support YOLOv5, and the author had previously promised to publish a paper regarding the performance improvement of YOLOv5 back to 2020 <a href="https://github.com/ultralytics/yolov5/issues/1333">where is yolov5 paper?</a>, but it has yet to be released.
 
 I appreciate the author who converted the Darknet YOLO version to PyTorch and made it easily accessible to the public. However, there is no accompanying research paper like YOLO v1 - v4.
