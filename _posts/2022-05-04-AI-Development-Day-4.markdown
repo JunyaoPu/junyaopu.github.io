@@ -12,13 +12,19 @@ header:
 Image segmentation is a process in computer vision where an image is partitioned into multiple segments or regions, each of which corresponds to a different object or part of an object. 
 
 
-## Semantic segmentation
+## Semantic segmentation and instance segmentation
+Both Semantic and Instance Segmentation involve predicting a segmentation mask on the original input image. The goal of Semantic Segmentation is to assign a semantic label, such as "person", "car", "dog", "cat", etc., to every pixel in the segmentation mask.
 
-## Instance segmentation
+Instance Segmentation is a variation of Semantic Segmentation, as it not only classifies each pixel into its class, but also distinguishes between different instances of the same object class.
+
+# Segmentation model with Unet
 
 ## <a href="https://arxiv.org/pdf/1411.4038.pdf">Fully Convolutional Networks (FCNs)</a>
-Fully Convolutional Networks (FCNs) are a type of deep learning architecture for image segmentation tasks. They are called "fully convolutional" because they consist only of convolutional layers, without any fully connected (dense) layers.
+Fully Convolutional Networks (FCNs) are a deep learning architecture. They are referred to as "fully convolutional" because they are composed entirely of convolutional layers, with no fully connected layers.
 
-FCNs use convolutional layers to perform both feature extraction(downsampling) and upsampling, which allows them to handle input images of different sizes and produce corresponding segmentation maps. The upsampling operation is achieved through transposed convolutions or other upsampling methods, which increase the spatial resolution of the feature maps.
+FCNs utilize convolutional layers to carry out both feature extraction (downsampling) and upsampling, allowing them to process input images of varying sizes and generate the corresponding segmentation maps. Upsampling is achieved through the use of transposed convolutions or other upsampling techniques, which increase the spatial resolution of the feature maps.
 
 ## <a href="https://arxiv.org/pdf/1505.04597.pdf">Unet</a>
+U-Net is a type of fully convolutional network (FCN) architecture used primarily in the field of medical image segmentation. It was first introduced in 2015 by Olaf Ronneberger.
+
+U-Net consists of a contracting path (downsampling) followed by an expansive path (upsampling) that leads to the final segmentation mask.
