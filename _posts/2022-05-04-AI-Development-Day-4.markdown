@@ -39,4 +39,22 @@ U-Net is a type of fully convolutional network (FCN) architecture used primarily
 </style>
 <img class="center" src="/assets/images/ai_day4/Unet.png" alt="Unet"> 
 
-U-Net consists of a contracting path (downsampling) followed by an expansive path (upsampling) that leads to the final segmentation mask.
+The U-Net architecture consists of two parts: a contracting path for downsampling and an expansive path for upsampling, which eventually produce the final segmentation mask.
+
+The downsampling path of the U-Net uses standard convolutional layers to extract features from the input image, utilizing filters of various sizes. On the other hand, the upsampling path employs transposed convolutional layers to increase the spatial resolution. These layers utilize a set of filters that perform the reverse operation of the standard convolutional layer.
+
+Here is a demonstration of a 3x3 input image with a 2x2 filter in the standard convolutional layers. This is similar to the downsampling operation in the U-Net architecture, but with the use of multiple filters.
+<style>
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  min-width: 30%;
+  max-width: 50%;
+  width: 50vw;
+}
+</style>
+<img class="center" src="/assets/images/ai_day4/Conv_layer.png" alt="Conv_layer"> 
+
+The upsampling reverses the operation, but tries to train the transposed convolutional layers' filters to fit the dataset using the image features extracted from the downsampling.
+
