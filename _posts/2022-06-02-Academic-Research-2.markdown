@@ -18,8 +18,8 @@ The concept behind the final formulation in my thesis was to expand the tensor d
   display: block;
   margin-left: auto;
   margin-right: auto;
-  min-width: 30%;
-  max-width: 30%;
+  min-width: 35%;
+  max-width: 35%;
   width: 50vw;
 }
 </style>
@@ -40,6 +40,17 @@ this 4th order tensor will be expanded to a be 5th order tensor as well
 
 The TT representation of this 5th order tensor (filters) can be show as
 <img class="center" src="/assets/images/research_day2/filter_tt.png" alt="filter_tt"> 
+
+
+By utilizing both the TT representations of the images and filters, the fully overlapping correlation with partial mode-2 correlation between each TT core can be calculated as
+<img class="center" src="/assets/images/research_day2/result_tt.png" alt="result_tt"> 
+
+or
+<img class="center" src="/assets/images/research_day2/result_ptt.png" alt="result_ptt"> 
+
+By reconstructing the original tensor from those TT cores, we will obtain the result or activation map with a single computation, rather than one map at a time as given by the initial formulation.
+
+The final formulation is more efficient and faster than the initial one. We have implemented this formulation and tested it on a plant image classification problem, resulting in very good results.
 
 
 # Formulation Details
