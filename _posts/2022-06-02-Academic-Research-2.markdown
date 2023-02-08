@@ -18,77 +18,27 @@ The concept behind the final formulation in my thesis was to expand the tensor d
   display: block;
   margin-left: auto;
   margin-right: auto;
-  min-width: 50%;
-  max-width: 50%;
+  min-width: 30%;
+  max-width: 30%;
   width: 50vw;
 }
 </style>
 <img class="center" src="/assets/images/research_day2/Image_tensor.png" alt="Image_tensor"> 
 
 this can be expanding to a 5th order tensor like
-<style>
-.center {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  min-width: 50%;
-  max-width: 50%;
-  width: 50vw;
-}
-</style>
 <img class="center" src="/assets/images/research_day2/Image_tensor_2.png" alt="Image_tensor_2"> 
 
 The TT representation of this 5th order tensor (images) can be show as
-<style>
-.center {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  min-width: 50%;
-  max-width: 50%;
-  width: 50vw;
-}
-</style>
 <img class="center" src="/assets/images/research_day2/image_tt.png" alt="image_tt"> 
 
 
 On the other hand, a batch of M filters (J_1 x J_2 x C) could be represented by a 4th order tensor as well.
-<style>
-.center {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  min-width: 50%;
-  max-width: 50%;
-  width: 50vw;
-}
-</style>
 <img class="center" src="/assets/images/research_day2/Filter_tensor.png" alt="Filter_tensor"> 
 
 this 4th order tensor will be expanded to a be 5th order tensor as well
-<style>
-.center {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  min-width: 50%;
-  max-width: 50%;
-  width: 50vw;
-}
-</style>
 <img class="center" src="/assets/images/research_day2/Filter_tensor_2.png" alt="Filter_tensor_2"> 
 
 The TT representation of this 5th order tensor (filters) can be show as
-<style>
-.center {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  min-width: 50%;
-  max-width: 50%;
-  width: 50vw;
-}
-</style>
 <img class="center" src="/assets/images/research_day2/filter_tt.png" alt="filter_tt"> 
 
 
