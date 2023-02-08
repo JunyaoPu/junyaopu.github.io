@@ -9,7 +9,7 @@ header:
     teaser: /assets/images/research_day1/TT_Conv.png
 ---
 # Initial Formulation
-This is made with LaTeX due to its excellent equation formatting.
+This document was made with LaTeX because its excellent equation formatting.
 <style>
 .center {
   display: block;
