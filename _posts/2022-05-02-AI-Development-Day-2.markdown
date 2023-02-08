@@ -57,7 +57,7 @@ aws s3 cp sync /path/to/local/file s3://my-bucket/path/to/s3/file
 aws s3 cp s3://my-bucket/path/to/s3/file /path/to/local/file
 ```
 # Achievements
-After reading this post
+After reading the post and information provided in the links
 
 * You should be able to transfer files efficiently and freely between your local/cloud machine and an AWS S3 bucket.
 

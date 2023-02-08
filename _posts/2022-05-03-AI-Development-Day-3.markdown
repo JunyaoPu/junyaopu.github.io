@@ -90,7 +90,7 @@ The ResNet, introduced in 2015 by researchers at Microsoft Research, uses residu
 While advanced CNNs like VGG and ResNet have achieved excellent performance in image classification problems, they can also be used in other areas of computer vision, such as segmentation and object detection. For example, Unet, DeepLab, Faster-RCNN, and YOLO use VGG or ResNet as the backbone to extract features from images or videos.
 
 # Achievements
-After reading this post and paper in the links
+After reading the post and paper provided in the links
 
 * You should have a good understanding of how the CNNs evolve and how we improved the CNNs performance on image classification problem.
 

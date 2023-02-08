@@ -17,14 +17,14 @@ Both Semantic and Instance Segmentation involve predicting a segmentation mask o
 
 Instance Segmentation is a variation of Semantic Segmentation, as it not only classifies each pixel into its class, but also distinguishes between different instances of the same object class.
 
-# Segmentation model with Unet
+# Segmentation model with U-Net
 
 ## <a href="https://arxiv.org/pdf/1411.4038.pdf">Fully Convolutional Networks (FCNs)</a>
 Fully Convolutional Networks (FCNs) are a deep learning architecture. They are referred to as "fully convolutional" because they are composed entirely of convolutional layers, with no fully connected layers.
 
 FCNs utilize convolutional layers to carry out both feature extraction (downsampling) and upsampling, allowing them to process input images of varying sizes and generate the corresponding segmentation maps. Upsampling is achieved through the use of transposed convolutions or other upsampling techniques, which increase the spatial resolution of the feature maps.
 
-## <a href="https://arxiv.org/pdf/1505.04597.pdf">Unet</a>
+## <a href="https://arxiv.org/pdf/1505.04597.pdf">U-Net</a>
 U-Net is a type of fully convolutional network (FCN) architecture used primarily in the field of medical image segmentation. It was first introduced in 2015 by Olaf Ronneberger. U-Net is called so because of its U-shaped architecture, where the model has a symmetrical structure with downsampling and upsampling forming the "U" shape.
 
 <style>
@@ -56,5 +56,13 @@ Here is a demonstration of a 3x3 input image with a 2x2 filter in the standard c
 </style>
 <img class="center" src="/assets/images/ai_day4/Conv_layer.png" alt="Conv_layer"> 
 
-The upsampling reverses the operation, but tries to train the transposed convolutional layers' filters to fit the dataset using the image features extracted from the downsampling.
+The upsampling reverses the operation, but tries to train the transposed convolutional layers' filters to fit the dataset using the image features extracted from the downsampling. Finally, the output of the segmentation mask has the same spatial dimensions as the input image, with the number of channels equal to the number of classes. Each channel represents the probability of each pixel belonging to a specific class. Typically, an argmax operation is performed on the last output to produce the final segmentation mask, which has a single channel only.
+
+# Achievements
+After reading the post and paper provided in the links
+
+* You should have a strong understanding of what Fully Convolutional Networks (FCNs) are and how the U-Net architecture is applied to address segmentation challenges.
+
+# What's next
+After gaining an understanding of FCNs and U-Net, you may also want to explore object detection challenges using deep learning or hands-on projects focused on segmentation challenges.
 

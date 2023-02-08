@@ -111,7 +111,7 @@ Open the jupyter notebook UI on your local browser with link
 http://localhost:8000/
 
 # Achievements
-After reading this post
+After reading the post and information provided in the links
 
 * You should be able to create an AWS EC2 instance with NVIDIA GPUs.
 * Run a Docker container with enabled NVIDIA GPUs, PyTorch, and Jupyter notebook installed.
