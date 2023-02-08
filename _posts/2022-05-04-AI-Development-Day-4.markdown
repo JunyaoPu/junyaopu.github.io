@@ -6,7 +6,7 @@ categories: AI
 collection: AI
 classes: wide
 header:
-    teaser: /assets/images/ai_day4/Unet.png
+    teaser: /assets/images/ai_day4/FCNs.png
 ---
 # Introduction  
 Image segmentation is a process in computer vision where an image is partitioned into multiple segments or regions, each of which corresponds to a different object or part of an object. 
@@ -26,5 +26,17 @@ FCNs utilize convolutional layers to carry out both feature extraction (downsamp
 
 ## <a href="https://arxiv.org/pdf/1505.04597.pdf">Unet</a>
 U-Net is a type of fully convolutional network (FCN) architecture used primarily in the field of medical image segmentation. It was first introduced in 2015 by Olaf Ronneberger.
+
+<style>
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  min-width: 30%;
+  max-width: 50%;
+  width: 50vw;
+}
+</style>
+<img class="center" src="/assets/images/ai_day4/Unet.png" alt="Unet"> 
 
 U-Net consists of a contracting path (downsampling) followed by an expansive path (upsampling) that leads to the final segmentation mask.
