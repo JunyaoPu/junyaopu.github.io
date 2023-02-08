@@ -1,6 +1,6 @@
 ---
 layout: single
-title:  "AI Dev Day 4: Segmentation model with Fully Convolutional Networks"
+title:  "AI Dev Day 4: Segmentation Model with Fully Convolutional Networks"
 date:   2022-05-04- 00:43:00 -0500
 categories: AI
 collection: AI
@@ -25,7 +25,7 @@ Fully Convolutional Networks (FCNs) are a deep learning architecture. They are r
 FCNs utilize convolutional layers to carry out both feature extraction (downsampling) and upsampling, allowing them to process input images of varying sizes and generate the corresponding segmentation maps. Upsampling is achieved through the use of transposed convolutions or other upsampling techniques, which increase the spatial resolution of the feature maps.
 
 ## <a href="https://arxiv.org/pdf/1505.04597.pdf">Unet</a>
-U-Net is a type of fully convolutional network (FCN) architecture used primarily in the field of medical image segmentation. It was first introduced in 2015 by Olaf Ronneberger.
+U-Net is a type of fully convolutional network (FCN) architecture used primarily in the field of medical image segmentation. It was first introduced in 2015 by Olaf Ronneberger. U-Net is called so because of its U-shaped architecture, where the model has a symmetrical structure with downsampling and upsampling forming the "U" shape.
 
 <style>
 .center {
@@ -39,7 +39,7 @@ U-Net is a type of fully convolutional network (FCN) architecture used primarily
 </style>
 <img class="center" src="/assets/images/ai_day4/Unet.png" alt="Unet"> 
 
-The U-Net architecture consists of two parts: a contracting path for downsampling and an expansive path for upsampling, which eventually produce the final segmentation mask.
+The U-Net architecture consists of two parts: a encoding path for downsampling and an decoding path for upsampling, which eventually produce the final segmentation mask.
 
 The downsampling path of the U-Net uses standard convolutional layers to extract features from the input image, utilizing filters of various sizes. On the other hand, the upsampling path employs transposed convolutional layers to increase the spatial resolution. These layers utilize a set of filters that perform the reverse operation of the standard convolutional layer.
 
