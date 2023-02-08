@@ -8,6 +8,8 @@ classes: wide
 header:
     teaser: /assets/images/research_day1/TT_Conv.png
 ---
+This is made with LaTeX due to its excellent equation formatting.
+
 <style>
 .center {
   display: block;
@@ -19,6 +21,31 @@ header:
 }
 </style>
 <img class="center" src="/assets/images/research_day1/From_Correlation_To_Convolutional_layer_31024_1.png" alt="sheet_1"> 
+
+<style>
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  min-width: 80%;
+  max-width: 80%;
+  width: 50vw;
+}
+</style>
+<img class="center" src="/assets/images/research_day1/From_Correlation_To_Convolutional_layer_31024_2.png" alt="sheet_2"> 
+
+
+<style>
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  min-width: 80%;
+  max-width: 80%;
+  width: 50vw;
+}
+</style>
+<img class="center" src="/assets/images/research_day1/From_Correlation_To_Convolutional_layer_31024_3.png" alt="sheet_3"> 
 
 
 
