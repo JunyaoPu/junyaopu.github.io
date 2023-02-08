@@ -11,7 +11,7 @@ header:
 My thesis actually utilized a superior TT-Conv layer formulation that employed a brilliant trick to compute multiple filters with multiple images simultaneously, instead of computing each activation map individually. 
 
 # Final Formulation
-The concept behind the final formulation in my thesis was to expand the tensor dimensions. For instance, a batch of N RGB images (64x64x3) could be represented by a tensor.
+The concept behind the final formulation in my thesis was to expand the tensor dimensions. For instance, a batch of N RGB images (64x64x3) could be represented by a 4th order tensor.
 
 <style>
 .center {
@@ -25,8 +25,14 @@ The concept behind the final formulation in my thesis was to expand the tensor d
 </style>
 <img class="center" src="/assets/images/research_day2/Image_tensor.png" alt="Image_tensor"> 
 
+This can be expanding to a 5th order tensor like
+</style>
+<img class="center" src="/assets/images/research_day2/Image_tensor_2.png" alt="Image_tensor_2"> 
 
-# Project Details
+
+
+
+# Formulation Details
 For more detailed information, please refer to my master's thesis available online on mspace <a href="https://mspace.lib.umanitoba.ca/handle/1993/36582">Design and implementation of a convolutional neural network using tensor-train decomposition</a>
 
 Or the project post on my personal page <a href="https://junyaopu.github.io/projects/">Junyao's Research & Development Page - Projects </a>

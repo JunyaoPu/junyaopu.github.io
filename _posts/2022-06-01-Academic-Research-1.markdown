@@ -49,7 +49,7 @@ This is made with LaTeX due to its excellent equation formatting.
 
 Everything in the above formulation was good, however, this is just my initial idea for the TT-Conv layer that dates back to 2021. My thesis actually utilized a superior TT-Conv layer formulation that employed a brilliant trick to compute multiple filters with multiple images simultaneously, instead of computing each activation map individually.
 
-# Project Details
+# Formulation Details
 For more detailed information, please refer to my master's thesis available online on mspace <a href="https://mspace.lib.umanitoba.ca/handle/1993/36582">Design and implementation of a convolutional neural network using tensor-train decomposition</a>
 
 Or the project post on my personal page <a href="https://junyaopu.github.io/projects/">Junyao's Research & Development Page - Projects </a>
