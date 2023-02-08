@@ -55,6 +55,8 @@ Finally, By reconstructing the original tensor from those TT cores, we will obta
 
 The final formulation is more efficient and faster than the initial one. We have implemented this formulation and tested it on a plant image classification problem, resulting in very good results.
 
+# What's next
+New training algorithm using Bayesian inference, NO BACKPROPAGATION!
 
 # Formulation Details
 For more detailed information, please refer to my master's thesis available online on mspace <a href="https://mspace.lib.umanitoba.ca/handle/1993/36582">Design and implementation of a convolutional neural network using tensor-train decomposition</a>
