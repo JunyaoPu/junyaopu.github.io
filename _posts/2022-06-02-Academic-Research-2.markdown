@@ -11,7 +11,7 @@ header:
 My thesis actually utilized a superior TT-Conv layer formulation that employed a brilliant trick to compute multiple filters with multiple images simultaneously, instead of computing each activation map individually. 
 
 # Final Formulation
-The concept behind the final formulation in my thesis was to expand the tensor dimensions. For instance, a batch of N RGB images (64x64x3) could be represented by a 4th order tensor.
+The concept behind the final formulation in my thesis was to expand the tensor dimensions. For instance, a batch of N images (I_1 x I_2 x C) could be represented by a 4th order tensor.
 
 <style>
 .center {
@@ -25,11 +25,17 @@ The concept behind the final formulation in my thesis was to expand the tensor d
 </style>
 <img class="center" src="/assets/images/research_day2/Image_tensor.png" alt="Image_tensor"> 
 
-This can be expanding to a 5th order tensor like
+this can be expanding to a 5th order tensor like
 </style>
 <img class="center" src="/assets/images/research_day2/Image_tensor_2.png" alt="Image_tensor_2"> 
 
+A batch of M filters (J_1 x J_2 x C) could be represented by a 4th order tensor as well.
+</style>
+<img class="center" src="/assets/images/research_day2/Filter_tensor.png" alt="Filter_tensor"> 
 
+this 4th order tensor will be expanded to a be 5th order tensor as well
+</style>
+<img class="center" src="/assets/images/research_day2/Filter_tensor_2.png" alt="Filter_tensor_2"> 
 
 
 # Formulation Details
