@@ -50,6 +50,9 @@ By utilizing both the TT representations of the images and filters, the fully ov
 or
 <img class="center" src="/assets/images/research_day2/result_ptt.png" alt="result_ptt"> 
 
+this can be show by using tensor graphical representation
+<img class="center" src="/assets/images/research_day2/tt_computation.png" alt="tt_computation"> 
+
 By reconstructing the original tensor from those TT cores, we will obtain the result or activation map with a single computation, rather than one map at a time as given by the initial formulation.
 
 The final formulation is more efficient and faster than the initial one. We have implemented this formulation and tested it on a plant image classification problem, resulting in very good results.
