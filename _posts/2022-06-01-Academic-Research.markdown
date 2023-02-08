@@ -8,9 +8,6 @@ classes: wide
 header:
     teaser: /assets/images/research_day1/TT_Conv.png
 ---
-# Introduction  
-
-
 <style>
 .center {
   display: block;
@@ -21,7 +18,7 @@ header:
   width: 50vw;
 }
 </style>
-<img class="center" src="/assets/images/research_day1/sheet_1.png" alt="sheet_1"> 
+<img class="center" src="/assets/images/research_day1/From_Correlation_To_Convolutional_layer_31024_1.png" alt="sheet_1"> 
 
 
 
