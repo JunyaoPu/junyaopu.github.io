@@ -18,6 +18,7 @@ Both Semantic and Instance Segmentation involve predicting a segmentation mask o
 Instance Segmentation is a variation of Semantic Segmentation, as it not only classifies each pixel into its class, but also distinguishes between different instances of the same object class.
 
 # Segmentation model with U-Net
+Some well-known deep learning models for object detection are FPN, PAN, DeepLab, and U-Net. U-Net is considered to be the superior segmentation model because of its straightforward architecture and accurate prediction.
 
 ## <a href="https://arxiv.org/pdf/1411.4038.pdf">Fully Convolutional Networks (FCNs)</a>
 Fully Convolutional Networks (FCNs) are a deep learning architecture. They are referred to as "fully convolutional" because they are composed entirely of convolutional layers, with no fully connected layers.
