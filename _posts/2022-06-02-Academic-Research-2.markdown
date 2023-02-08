@@ -38,6 +38,20 @@ this can be expanding to a 5th order tensor like
 </style>
 <img class="center" src="/assets/images/research_day2/Image_tensor_2.png" alt="Image_tensor_2"> 
 
+The TT representation of this image 5th order tensor can be show as
+<style>
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  min-width: 50%;
+  max-width: 50%;
+  width: 50vw;
+}
+</style>
+<img class="center" src="/assets/images/research_day2/image_tt.png" alt="image_tt"> 
+
+
 A batch of M filters (J_1 x J_2 x C) could be represented by a 4th order tensor as well.
 <style>
 .center {
