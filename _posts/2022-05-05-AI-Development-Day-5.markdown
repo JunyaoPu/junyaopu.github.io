@@ -56,8 +56,8 @@ I appreciate the author who converted the Darknet YOLO version to PyTorch and ma
 # Achievements
 After reading the post and paper provided in the links
 
-* 
+* Having a strong understanding of the evolution of the YOLO family for object detection challenges.
 
 # What's next
-
+Hands-on projects focused on object detection and segmentation challenges.
 
