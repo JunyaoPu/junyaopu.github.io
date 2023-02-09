@@ -13,7 +13,7 @@ Object detection is a computer vision task that involves finding and locating ob
 
 # YOLO Farmily
 
-## YOLO V1 (2016)
+## YOLO V1 (2015)
 <a href="https://arxiv.org/pdf/1506.02640.pdf">YOLO V1</a>  was the first model of the YOLO farmily and was introduced in 2015 by Joseph Redmon. Unlike the RCNN family, which employs a two-network setup, the YOLO model features a single convolutional neural network (CNN) architecture. The simplicity of its single network design allows the YOLO model to readily achieve real-time object detection performance even on hardware with limited resources. However, it was not without its limitations and faced challenges in accurately detecting small objects and generating false detections.
 
 ## <a href="https://arxiv.org/pdf/1612.08242.pdf">YOLO V2 (2016)</a> 
