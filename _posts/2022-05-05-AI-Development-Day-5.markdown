@@ -35,7 +35,13 @@ YOLOV1 uses a single neural network architecture to predict both the bounding bo
 <img class="center" src="/assets/images/ai_day5/anchor_boxes.png" alt="anchor_boxes"> 
 Anchor boxes are used in YOLO models to provide a priori information about the size and aspect ratio of objects in an image. 
 
-## <a href="https://arxiv.org/pdf/1804.02767.pdf">YOLO V3 (2018)</a>
+## YOLO V3 (2018)
+<a href="https://arxiv.org/pdf/1804.02767.pdf">The YOLO v3 paper</a> is viewed as a technical report rather than a conventional research paper. It offers a comprehensive explanation of the YOLO v3 architecture.
+
+The paper evaluates the performance of YOLO v3 on several benchmark datasets, including PASCAL VOC and COCO object detection challenges. The evaluation compares YOLO v3 to other object detection models, such as Faster R-CNN and SSD.
+
+<img class="center" src="/assets/images/ai_day5/inf_time.png" alt="inf_time"> 
+The diagram show that the YOLO v3 model outperforms other object detection models in terms of inference time.
 
 ## <a href="https://arxiv.org/pdf/2004.10934.pdf">YOLO V4 (2020)</a>
 
