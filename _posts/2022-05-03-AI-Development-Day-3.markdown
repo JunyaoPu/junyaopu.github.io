@@ -11,9 +11,8 @@ header:
 # Introduction  
 The history of Artificial Neural Networks (ANN) can be traced back to the 1940s and 1950s, when neuroscientists and computer scientists first started investigating the idea of constructing machine learning models that would resemble the structure and function of the human brain. Today, ANNs are applied in various fields, including image and speech recognition, natural language processing, and autonomous vehicles. The Convolutional Neural Network (CNN) is a subclass of ANNs, primarily utilized for image processing, owing to the strength of the convolutional layer. Notable CNN architectures include LeNet, AlexNet, VGG, and ResNet.
 
-# <a href="http://vision.stanford.edu/cs598_spring07/papers/Lecun98.pdf">LeNet</a> (1998)
-
-The LeNet model, introduced by Yann LeCun in 1998, was designed for the recognition of handwritten digits, such as those found in the MNIST dataset. The MNIST dataset contains 70,000 images of handwritten digits, ranging from 0 to 9, with their corresponding labels. It is widely used as a benchmark for evaluating the performance of different image classification algorithms. The images are 28x28 pixels in size and are grayscale, with pixel values ranging from 0 (black) to 255 (white).
+# LeNet (1998)
+<a href="http://vision.stanford.edu/cs598_spring07/papers/Lecun98.pdf">The LeNet model</a>, introduced by Yann LeCun in 1998, was designed for the recognition of handwritten digits, such as those found in the MNIST dataset. The MNIST dataset contains 70,000 images of handwritten digits, ranging from 0 to 9, with their corresponding labels. It is widely used as a benchmark for evaluating the performance of different image classification algorithms. The images are 28x28 pixels in size and are grayscale, with pixel values ranging from 0 (black) to 255 (white).
 
 <style>
 .center {
