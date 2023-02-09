@@ -14,11 +14,21 @@ Object detection is a computer vision task that involves finding and locating ob
 # YOLO Farmily
 
 ## YOLO V1 (2015)
-<a href="https://arxiv.org/pdf/1506.02640.pdf">YOLO V1</a>  was the first model of the YOLO farmily and was introduced in 2015 by Joseph Redmon. Unlike the RCNN family, which employs a two-network setup, the YOLO model features a single convolutional neural network (CNN) architecture. The simplicity of its single network design allows the YOLO model to readily achieve real-time object detection performance even on hardware with limited resources. However, it was not without its limitations and faced challenges in accurately detecting small objects and generating false detections.
+<a href="https://arxiv.org/pdf/1506.02640.pdf">YOLO V1</a>  was the first model of the YOLO farmily and was introduced in 2015 by Joseph Redmon. Unlike the RCNN family, which employs a two-network setup, the YOLO model features a single convolutional neural network architecture. The simplicity of its single network design allows the YOLO model to readily achieve real-time object detection performance even on hardware with limited resources. However, it was not without its limitations and faced challenges in accurately detecting small objects and generating false detections.
 
 ## YOLO V2 (2016) 
 <a href="https://arxiv.org/pdf/1612.08242.pdf">YOLO V2</a> was introduced in 2016 by Joseph Redmon and built upon the foundation of YOLO v1. It incorporated the use of anchor boxes and skip connections to enhance its performance. The use of anchor boxes significantly simplified the model's predictions by focusing on the ratio of the object's bounding box size rather than its absolute location.This helped improve accuracy, especially for small objects.
 
+<style>
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  min-width: 30%;
+  max-width: 50%;
+  width: 50vw;
+}
+</style>
 <img class="center" src="/assets/images/ai_day5/anchor_boxes.png" alt="anchor_boxes"> 
 Anchor boxes are used in object detection models to provide a priori information about the size and aspect ratio of objects in an image. 
 
