@@ -11,6 +11,8 @@ header:
 My thesis actually utilized a superior TT-Conv layer formulation that employed a brilliant idea to compute multiple filters with multiple images simultaneously, instead of computing each activation map individually. 
 
 # Final Formulation
+(I have a fondness for creating equations using LaTeX, as formatting equations elegantly on a website can be quite a challenge.)
+
 The concept behind the final formulation in my thesis was to expand the tensor dimensions. For instance, a batch of N images (I_1 x I_2 x C) could be represented by a 4th order tensor.
 
 <style>
