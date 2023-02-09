@@ -27,10 +27,10 @@ Object detection is a computer vision task that involves finding and locating ob
 }
 </style>
 <img class="center" src="/assets/images/ai_day5/yolov1.png" alt="yolov1"> 
-
+YOLOV1 uses a single neural network architecture to predict both the bounding box coordinates and class probabilities for objects in an image.
 
 ## YOLO V2 (2016) 
-<a href="https://arxiv.org/pdf/1612.08242.pdf">YOLO V2</a> was introduced in 2016 by Joseph Redmon and built upon the foundation of YOLO v1. It incorporated the use of anchor boxes and skip connections to enhance its performance. The use of anchor boxes significantly simplified the model's predictions by focusing on the ratio of the object's bounding box size rather than its absolute location.This helped improve accuracy, especially for small objects.
+<a href="https://arxiv.org/pdf/1612.08242.pdf">YOLO V2</a> was introduced in 2016 by Joseph Redmon and built upon the foundation of YOLO v1. It incorporated the use of anchor boxes and skip connections to enhance its performance. The use of anchor boxes significantly simplified the model's predictions by focusing on the ratio of the object's bounding box size rather than its absolute bounding box coordinates.This helped improve accuracy, especially for small objects.
 
 <img class="center" src="/assets/images/ai_day5/anchor_boxes.png" alt="anchor_boxes"> 
 Anchor boxes are used in YOLO models to provide a priori information about the size and aspect ratio of objects in an image. 
