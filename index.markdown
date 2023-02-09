@@ -5,7 +5,7 @@ header:
     overlay_filter: 0.5
     show_overlay_excerpt: false
     image_description: "2D ferrofluid simulation from my thesis project."
-    caption: "Simulation of the Rosensweig instability."
+    caption: "Moving Forward with Anticipation."
     actions:
     - label: "Projects"
       url: /projects/
