@@ -21,7 +21,7 @@ Instance Segmentation is a variation of Semantic Segmentation, as it not only cl
 Some well-known deep learning models for object detection are FPN, PAN, DeepLab, and U-Net. U-Net is considered to be the superior segmentation model because of its straightforward architecture and accurate prediction.
 
 ## Fully Convolutional Networks (FCNs)
-a href="https://arxiv.org/pdf/1411.4038.pdf">Fully Convolutional Networks (FCNs)</a> are a deep learning architecture. They are referred to as "fully convolutional" because they are composed entirely of convolutional layers, with no fully connected layers.
+<a href="https://arxiv.org/pdf/1411.4038.pdf">Fully Convolutional Networks (FCNs)</a> are a deep learning architecture. They are referred to as "fully convolutional" because they are composed entirely of convolutional layers, with no fully connected layers.
 
 FCNs utilize convolutional layers to carry out both feature extraction (downsampling) and upsampling, allowing them to process input images of varying sizes and generate the corresponding segmentation maps. Upsampling is achieved through the use of transposed convolutions or other upsampling techniques, which increase the spatial resolution of the feature maps.
 
