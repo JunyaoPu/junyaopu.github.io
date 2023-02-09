@@ -46,7 +46,7 @@ The diagram show that the YOLO v3 model outperforms other object detection model
 Unfortunately, in the end of the YOLOv3 paper, Joseph Redmon expressed his concerns about the potential misuse of his work in military applications. As a result, he decided to step away from the development of YOLO after the release of YOLOv3.
 
 ## YOLO V4 (2020)
-<a href="https://arxiv.org/pdf/2004.10934.pdf">The YOLO V4</a> is the first version of the YOLO architecture that was not developed by Joseph Redmon. The development of YOLOv4 was led by Alexey Bochkovskiy in 2020.
+<a href="https://arxiv.org/pdf/2004.10934.pdf">The YOLO V4</a> was developed by Alexey Bochkovskiy in 2020, and it is the first version of the YOLO architecture that was not created by Joseph Redmon. The YOLO v4 model includes several new features and optimizations to enhance its accuracy and performance, including Cross mini-Batch Normalization, Bag of freebies and CIoU loss. These improvements allow YOLOv4 to surpass YOLOv3 in terms of accuracy and speed.
 
 ## WHY I DO NOT LIKE / TRUST YOLOV5
 As a scientific researcher, I prefer that any work is documented and available through a publicly accessible paper. Currently, there is no paper to support YOLOv5, and the author had previously promised to publish a paper regarding the performance improvement of YOLOv5 back to 2020 <a href="https://github.com/ultralytics/yolov5/issues/1333">where is yolov5 paper?</a>, but it has yet to be released.
