@@ -41,9 +41,12 @@ Anchor boxes are used in YOLO models to provide a priori information about the s
 The paper evaluates the performance of YOLO v3 on several benchmark datasets, including PASCAL VOC and COCO object detection challenges. The evaluation compares YOLO v3 to other object detection models, such as Faster R-CNN and SSD.
 
 <img class="center" src="/assets/images/ai_day5/inf_time.png" alt="inf_time"> 
-The diagram show that the YOLO v3 model outperforms other object detection models in terms of inference time.
+The diagram show that the YOLO v3 model outperforms other object detection models in terms of inference time with the COCO dataset.
 
-## <a href="https://arxiv.org/pdf/2004.10934.pdf">YOLO V4 (2020)</a>
+Unfortunately, in the end of the YOLOv3 paper, Joseph Redmon expressed his concerns about the potential misuse of his work in military applications. As a result, he decided to step away from the development of YOLO after the release of YOLOv3.
+
+## YOLO V4 (2020)
+<a href="https://arxiv.org/pdf/2004.10934.pdf">The YOLO V4</a> is the first version of the YOLO architecture that was not developed by Joseph Redmon. The development of YOLOv4 was led by Alexey Bochkovskiy in 2020.
 
 ## WHY I DO NOT LIKE / TRUST YOLOV5
 As a scientific researcher, I prefer that any work is documented and available through a publicly accessible paper. Currently, there is no paper to support YOLOv5, and the author had previously promised to publish a paper regarding the performance improvement of YOLOv5 back to 2020 <a href="https://github.com/ultralytics/yolov5/issues/1333">where is yolov5 paper?</a>, but it has yet to be released.
