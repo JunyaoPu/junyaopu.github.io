@@ -1,6 +1,6 @@
 ---
 layout: single
-title:  "AI Dev Day 5: Object Detection Model with YOLO Farmily"
+title:  "AI Dev Day 5: Object Detection Model with YOLO Family"
 date:   2022-05-04- 00:43:00 -0500
 categories: AI
 collection: AI
@@ -11,10 +11,10 @@ header:
 # Introduction  
 Object detection is a computer vision task that involves finding and locating objects within images or videos. Deep learning is often used to tackle object detection challenges by using neural networks to identify objects and draw bounding boxes around them. Some popular deep learning models for object detection include Faster R-CNN, YOLO, and RetinaNet. YOLO is considered to be the best object detection model for edge devices, such as the NVIDIA Jetson family, due to its simple implementation and fast inference speed.
 
-# YOLO Farmily
+# YOLO Family
 
 ## YOLO V1 (2015)
-<a href="https://arxiv.org/pdf/1506.02640.pdf">YOLO V1</a>  was the first model of the YOLO farmily and was introduced in 2015 by Joseph Redmon. Unlike the RCNN family, which employs a two-network setup, the YOLO model features a single convolutional neural network architecture. The simplicity of its single network design allows the YOLO model to readily achieve real-time object detection performance even on hardware with limited resources. However, it was not without its limitations and faced challenges in accurately detecting small objects and generating false detections.
+<a href="https://arxiv.org/pdf/1506.02640.pdf">YOLO V1</a>  was the first model of the YOLO Family and was introduced in 2015 by Joseph Redmon. Unlike the RCNN family, which employs a two-network setup, the YOLO model features a single convolutional neural network architecture. The simplicity of its single network design allows the YOLO model to readily achieve real-time object detection performance even on hardware with limited resources. However, it was not without its limitations and faced challenges in accurately detecting small objects and generating false detections.
 
 <style>
 .center {
