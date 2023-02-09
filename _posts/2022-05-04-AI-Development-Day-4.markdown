@@ -20,13 +20,13 @@ Instance Segmentation is a variation of Semantic Segmentation, as it not only cl
 # Segmentation model with U-Net
 Some well-known deep learning models for object detection are FPN, PAN, DeepLab, and U-Net. U-Net is considered to be the superior segmentation model because of its straightforward architecture and accurate prediction.
 
-## <a href="https://arxiv.org/pdf/1411.4038.pdf">Fully Convolutional Networks (FCNs)</a>
-Fully Convolutional Networks (FCNs) are a deep learning architecture. They are referred to as "fully convolutional" because they are composed entirely of convolutional layers, with no fully connected layers.
+## Fully Convolutional Networks (FCNs)
+a href="https://arxiv.org/pdf/1411.4038.pdf">Fully Convolutional Networks (FCNs)</a> are a deep learning architecture. They are referred to as "fully convolutional" because they are composed entirely of convolutional layers, with no fully connected layers.
 
 FCNs utilize convolutional layers to carry out both feature extraction (downsampling) and upsampling, allowing them to process input images of varying sizes and generate the corresponding segmentation maps. Upsampling is achieved through the use of transposed convolutions or other upsampling techniques, which increase the spatial resolution of the feature maps.
 
-## <a href="https://arxiv.org/pdf/1505.04597.pdf">U-Net</a>
-U-Net is a type of fully convolutional network (FCN) architecture used primarily in the field of medical image segmentation. It was first introduced in 2015 by Olaf Ronneberger. U-Net is called so because of its U-shaped architecture, where the model has a symmetrical structure with downsampling and upsampling forming the "U" shape.
+## The U-Net
+<a href="https://arxiv.org/pdf/1505.04597.pdf">The U-Net</a> is a type of fully convolutional network (FCN) architecture used primarily in the field of medical image segmentation. It was first introduced in 2015 by Olaf Ronneberger. U-Net is called so because of its U-shaped architecture, where the model has a symmetrical structure with downsampling and upsampling forming the "U" shape.
 
 <style>
 .center {
