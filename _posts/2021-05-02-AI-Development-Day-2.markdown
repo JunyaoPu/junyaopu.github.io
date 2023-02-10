@@ -1,7 +1,7 @@
 ---
 layout: single
 title:  "AI Dev Day 2: Setup AWS S3 Bucket for an EC2 Cloud Server"
-date:   2022-05-02- 00:43:00 -0500
+date:   2021-05-02- 00:43:00 -0500
 categories: AI
 collection: AI
 classes: wide

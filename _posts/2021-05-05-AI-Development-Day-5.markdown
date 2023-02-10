@@ -1,7 +1,7 @@
 ---
 layout: single
 title:  "AI Dev Day 5: Object Detection Model with YOLO Family"
-date:   2022-05-04- 00:43:00 -0500
+date:   2021-05-04- 00:43:00 -0500
 categories: AI
 collection: AI
 classes: wide
