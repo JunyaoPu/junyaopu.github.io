@@ -10,7 +10,7 @@ header:
     teaser: /assets/images/project_OD/OD.png
 ---
 
-This is my personal project where I trained a YOLO v4 model on the COCO dataset using an AWS EC2 cloud server, and successfully deployed the YOLO object detection model on an NVIDIA Jetson AGX Xavier platform powered by ROS2 and TensorRT C, delivering 60 frames per second with an input resolution of 512x512 RGB images.
+This is my personal project where I trained a YOLO v4 model on the COCO dataset using an AWS EC2 cloud server, and successfully deployed the YOLO object detection model on an NVIDIA Jetson AGX Xavier platform powered by ROS2 and TensorRT C, delivering 60 frames per second with an input resolution of 512x512 RGB images (resized from 1080p).
 
 # Setup
 - AWS access for EC2 (p3.2xlarge)
@@ -18,6 +18,10 @@ This is my personal project where I trained a YOLO v4 model on the COCO dataset 
 - NVIDIA Jetson AGX Xavier (JetPack 4.5)
 
 - ROS2 installed (Eloquent)
+
+- Logitech C920 Webcam HD Pro
+
+- A monitor (HDMI)
 
 # Workflow
 The training phase was executed on an AWS EC2 cloud server utilizing PyTorch. An Onnx file was utilized as a connector to transfer the trained model to the deployment hardware. The deployment phase was performed on an NVIDIA Jetson AGX Xavier using ROS2 and TensorRT C, as the C programming language was selected for its exceptional speed performance in comparison to Python.
