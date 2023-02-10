@@ -7,7 +7,7 @@ author_profile: true
 toc: true
 classes: wide
 header:
-    teaser: /assets/images/project_OD/OD.png
+    teaser: /assets/images/project_OD/test_1.png
 ---
 
 This is my personal project where I trained a YOLO v4 model on the COCO dataset using an AWS EC2 cloud server, and successfully deployed the YOLO object detection model on an NVIDIA Jetson AGX Xavier platform powered by ROS2 and TensorRT C, delivering 65 frames per second with an input resolution of 512x512 RGB images (resized from 1080p).
