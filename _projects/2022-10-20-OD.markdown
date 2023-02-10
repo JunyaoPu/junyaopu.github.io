@@ -10,7 +10,7 @@ header:
     teaser: /assets/images/project_OD/test_1.png
 ---
 
-This is my personal project where I trained a YOLO v4 model on the COCO dataset using an AWS EC2 cloud server, and successfully deployed the YOLO object detection model on an NVIDIA Jetson AGX Xavier hardware with ROS2 C/C++ and TensorRT C/C++, delivering 65 frames per second with an input RGB images from a Logitech webcam.
+This is my personal project where I trained a YOLO v4 model on the COCO dataset using an AWS EC2 cloud server, and successfully deployed the YOLO object detection model on an NVIDIA Jetson AGX Xavier hardware with ROS2 C/C++ and TensorRT C/C++, delivering 65 frames per second with input RGB images from a Logitech webcam.
 
 # Setup
 - AWS access for EC2 (p3.2xlarge)
