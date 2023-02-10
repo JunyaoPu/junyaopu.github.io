@@ -1,7 +1,7 @@
 ---
 layout: single
 title:  "AI Dev Day 1: Setup AWS EC2 Cloud Server for AI development"
-date:   2021-05-01 00:43:00 -0500
+date:   2022-05-01 00:43:00 -0500
 categories: AI
 collection: AI
 classes: wide

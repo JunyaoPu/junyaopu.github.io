@@ -1,7 +1,7 @@
 ---
 layout: single
 title:  "AI Dev Day 5: Project with Object Detection Model"
-date:   2021-11-05- 00:43:00 -0500
+date:   2022-11-05- 00:43:00 -0500
 categories: AI
 collection: AI
 classes: wide
