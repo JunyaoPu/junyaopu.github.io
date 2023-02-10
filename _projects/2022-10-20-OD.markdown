@@ -10,7 +10,7 @@ header:
     teaser: /assets/images/project_OD/test_1.png
 ---
 
-This is my personal project where I trained a YOLO v4 model on the COCO dataset using an AWS EC2 cloud server, and successfully deployed the YOLO object detection model on an NVIDIA Jetson AGX Xavier platform powered by ROS2 and TensorRT C, delivering 65 frames per second with an input resolution of 512x512 RGB images (resized from 1080p).
+This is my personal project where I trained a YOLO v4 model on the COCO dataset using an AWS EC2 cloud server, and successfully deployed the YOLO object detection model on an NVIDIA Jetson AGX Xavier hardware with ROS2 C/C++ and TensorRT C/C++, delivering 65 frames per second with an input RGB images from a Logitech webcam.
 
 # Setup
 - AWS access for EC2 (p3.2xlarge)
@@ -24,7 +24,7 @@ This is my personal project where I trained a YOLO v4 model on the COCO dataset 
 - A monitor (HDMI)
 
 # Workflow
-The training phase was executed on an AWS EC2 cloud server utilizing PyTorch. An Onnx file was utilized as a connector to transfer the trained model to the deployment hardware. The deployment phase was performed on an NVIDIA Jetson AGX Xavier using ROS2 and TensorRT C, as the C programming language was selected for its exceptional speed performance in comparison to Python.
+The training phase was executed on an AWS EC2 cloud server utilizing PyTorch. An Onnx file was utilized as a connector to transfer the trained model to the deployment hardware. The deployment phase was performed on an NVIDIA Jetson AGX Xavier using ROS2 and TensorRT, as the C/C++ programming language was selected for its exceptional speed for input pre-processing and output post-processing.
 
 <style>
 .center {
@@ -39,7 +39,7 @@ The training phase was executed on an AWS EC2 cloud server utilizing PyTorch. An
 <img class="center" src="/assets/images/project_OD/Task_1.png" alt="The task."> 
 
 # Demo
-Here is a picture of my setup with a NVIDIA Jetson AGX Xavier, Logitech C920 Webcam and a monitor.
+Here is a picture of my setup with a NVIDIA Jetson AGX Xavier, Logitech C920 Webcam and a monitor. 
 <style>
 .center {
   display: block;
@@ -51,10 +51,10 @@ Here is a picture of my setup with a NVIDIA Jetson AGX Xavier, Logitech C920 Web
 }
 </style>
 <img class="center" src="/assets/images/project_OD/Setup.png" alt="Setup."> 
-I utilized a Satechi 5-Port USB-C Hub to increase the number of USB-A and USB-C ports on the NVIDIA Jetson AGX Xavier. This allowed me to connect my external keyboard, mouse, and camera. The Jtop, which is similar to nvidia-smi, was utilized to monitor the utilization of the GPU. The Logitech C920 Webcam was mounted on a tripod, so it could stand on its own.
+I used a Satechi 5-Port USB-C Hub to expand the number of USB-A and USB-C ports on the NVIDIA Jetson AGX Xavier, enabling me to connect my external keyboard, mouse, and camera. The Logitech C920 Webcam was mounted on a tripod, so it could stand on its own. I was running three ROS2 nodes, including a camera node, a TensorRT node, and a visualization node. In addition, I used another terminal with the 'jtop' tool, which is similar to 'nvidia-smi', to monitor the GPU usage. 
 
 
-Here are two screenshots of the visualization node that display the results of the object detection.
+Here are two screenshots from the visualization node that show the results of the object detection.
 
 <img class="center" src="/assets/images/project_OD/test_1.png" alt="test_1."> 
 
