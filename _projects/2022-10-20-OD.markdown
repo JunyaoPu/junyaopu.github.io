@@ -39,3 +39,15 @@ The training phase was executed on an AWS EC2 cloud server utilizing PyTorch. An
 <img class="center" src="/assets/images/project_OD/Task_1.png" alt="The task."> 
 
 # Demo
+Here is a picture of my setup with a NVIDIA Jetson AGX Xavier, Logitech C920 Webcam and a monitor.
+<style>
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  min-width: 90%;
+  max-width: 90%;
+  width: 50vw;
+}
+</style>
+<img class="center" src="/assets/images/project_OD/Setup.png" alt="Setup."> 
