@@ -34,3 +34,4 @@ The training phase was executed on an AWS EC2 cloud server utilizing PyTorch. An
 </style>
 <img class="center" src="/assets/images/project_OD/Task_1.png" alt="The task."> 
 
+# Project Demo
