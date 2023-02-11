@@ -58,7 +58,7 @@ Here are two screenshots from the visualization node that show the results of th
 
 <img class="center" src="/assets/images/project_OD/test_1.png" alt="test_1."> 
 
-On the upper-right corner of the bounding box, the first parameter displayed is the current fps of the TensorRT ROS2 node. The second parameter indicates the object class, and the last parameter represents the probability that the object belongs to that class.
+On the upper-left corner of the bounding box, the first parameter displayed is the current fps of the TensorRT ROS2 node. The second parameter indicates the object class, and the last parameter represents the probability that the object belongs to that class.
 
 <img class="center" src="/assets/images/project_OD/test_2.png" alt="test_2."> 
 
