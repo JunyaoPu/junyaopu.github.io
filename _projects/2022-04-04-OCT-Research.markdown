@@ -12,7 +12,7 @@ header:
 ---
 This was my undergraduate thesis honours project that improved a existing Optical Coherence Tomography (OCT) simulator.
 For further information on the implementation of the GPU-accelerated Monte Carlo Simulator for
-Optical Coherence Tomography, please refer to my master's thesis available in Github.<a href="https://github.com/JunyaoPu/junyaopu.github.io/tree/main/assets">An Improved Monte Carlo Simulator for Optical Coherence Tomography</a>
+Optical Coherence Tomography, please refer to my undergraduate thesis available in Github.<a href="https://github.com/JunyaoPu/junyaopu.github.io/tree/main/assets">An Improved Monte Carlo Simulator for Optical Coherence Tomography</a>
 
 # Introduction
 Numerical simulations of light propagation in tissue can enhance our understanding of the underlying principles of OCT and lead to improvements in OCT methods and hardware. In this project, I created a new inhomogeneous turbid media OCT simulator using an advanced sequential Monte Carlo (SMC) method that incorporates resampling techniques. This enhancement resolves the weight degeneracy issue, and resulting in faster simulation times and/or improved accuracy.
