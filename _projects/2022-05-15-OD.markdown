@@ -10,7 +10,7 @@ header:
     teaser: /assets/images/project_OD/test_1.png
 ---
 
-This is my personal project where I trained a YOLO (v4) model on the COCO dataset using an AWS EC2 cloud server, and deployed the YOLO object detection model on an NVIDIA Jetson AGX Xavier hardware with ROS2 C/C++ and TensorRT C/C++, delivering 65 frames per second with input RGB images from a Logitech webcam.
+This is my personal project where I trained a YOLO (v4) model on the COCO dataset using an AWS EC2 cloud server, and deployed the YOLO object detection model on an NVIDIA Jetson AGX Xavier hardware with ROS2 C/C++ and TensorRT C/C++, delivering 68 frames per second with input RGB images from a Logitech webcam.
 
 # Setup
 - AWS access for EC2 (p3.2xlarge)
@@ -62,4 +62,4 @@ On the upper-left corner of the bounding box, the first parameter displayed is t
 
 <img class="center" src="/assets/images/project_OD/test_2.png" alt="test_2."> 
 
-Overall, I am satisfied with the performance of this setup, which runs at a rate of 55-65 fps on the NVIDIA Jetson AGX Xavier. This setup has the potential for further optimization as I am currently using JetPack 4.5 which includes TensorRT 7. By upgrading to JetPack with TensorRT 8, which supports end-to-end ONNX models with NMS plugins in the object detection model, it could enhance the fps performance on NVIDIA edge hardware.
+Overall, I am satisfied with the performance of this setup, which runs at a rate of 55-68 fps on the NVIDIA Jetson AGX Xavier. This setup has the potential for further optimization as I am currently using JetPack 4.5 which includes TensorRT 7. By upgrading to JetPack with TensorRT 8, which supports end-to-end ONNX models with NMS plugins in the object detection model, it could enhance the fps performance on NVIDIA edge hardware.
