@@ -8,9 +8,9 @@ classes: wide
 header:
     teaser: /assets/images/ai_day7/GAN.png
 --- 
-Generative Adversarial Networks (GANs) are a revolutionary approach to generating synthetic data that has gained a lot of popularity in recent years. The concept of GANs was introduced in 2014 by Ian Goodfellow and has since then been applied to various domains such as computer vision, audio, and text generation.
+I'm interested in Generative Adversarial Networks (GANs) because they demonstrate outstanding generative abilities, producing high-quality synthetic images, videos, music, and computer code. The concept of GANs was first introduced by Ian Goodfellow in 2014 and has since been applied to various domains, including computer vision, audio, and text generation.
 
-GANs work by training two neural networks simultaneously, a generator network and a discriminator network. The generator network's goal is to generate synthetic data that is indistinguishable from real data, while the discriminator network's goal is to determine whether the data it receives is real or generated.
+GANs train two neural networks simultaneously: a generator network and a discriminator network. The generator network's objective is to generate synthetic data that is indistinguishable from real data, while the discriminator network's purpose is to distinguish between real and generated data.
 
 <style>
 .center {
