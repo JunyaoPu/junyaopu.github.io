@@ -10,6 +10,6 @@ header:
 --- 
 I recently spent a few days re-building a real-time object detection system on the NVIDIA Jetson AGX Xavier, which was a fun and enriching experience. This project served to refresh my memory on how to deploy a object detection model on an edge device for optimal performance using TensorRT and CUDA.
 
-Please refer to my project <a href="https://junyaopu.github.io/projects/2022-10-20-OD/">Real-time AI Vision System: Object Detection</a>
+Please refer to my project <a href="https://junyaopu.github.io/projects/2022-05-15-OD/">Real-time AI Vision System: Object Detection</a>
 
 
