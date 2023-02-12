@@ -51,7 +51,7 @@ Here is a picture of my setup with a NVIDIA Jetson AGX Xavier, Logitech C920 Web
 }
 </style>
 <img class="center" src="/assets/images/project_OD/Setup.png" alt="Setup."> 
-I used a Satechi 5-Port USB-C Hub to expand the number of USB ports on the NVIDIA Jetson AGX Xavier, enabling me to connect my external keyboard, mouse, and camera. The Logitech C920 Webcam was mounted on a tripod, so it could stand on its own. I was running three ROS2 nodes, including a camera node, a TensorRT node, and a visualization node. In addition, I used another terminal with the 'jtop' tool, which is similar to 'nvidia-smi', to monitor the GPU usage. 
+I used a Satechi USB-C Hub to expand the number of USB ports on the NVIDIA Jetson AGX Xavier, enabling me to connect my external keyboard, mouse, and camera. The Logitech C920 Webcam was mounted on a tripod, so it could stand on its own. I was running three ROS2 nodes, including a camera node, a TensorRT node, and a visualization node. In addition, I used another terminal with the 'jtop' tool, which is similar to 'nvidia-smi', to monitor the GPU usage. 
 
 
 Here are two screenshots from the visualization node that show the results of the object detection.
