@@ -1,7 +1,7 @@
 ---
 layout: single
 title:  "Design of a Self-Shielded Solenoid for Neutron EDM Experiment at TRIUMF"
-date:   2022-01-01 00:43:00 -0500
+date:   2021-04-01 00:43:00 -0500
 collection: projects
 author_profile: true
 toc: true

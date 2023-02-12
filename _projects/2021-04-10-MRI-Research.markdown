@@ -1,7 +1,7 @@
 ---
 layout: single
 title:  "A GPU-accelerated Monte Carlo Simulator for TRASE Magnetic Resonance Imaging (MRI)"
-date:   2022-01-05 00:43:00 -0500
+date:   2021-04-10 00:43:00 -0500
 collection: projects
 author_profile: true
 toc: true
