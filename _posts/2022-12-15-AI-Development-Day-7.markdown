@@ -23,7 +23,7 @@ I'm interested in Generative Adversarial Networks (GANs) because they demonstrat
 </style>
 <img class="center" src="/assets/images/ai_day7/GAN.png" alt="GAN"> 
 
-The core of GANs lies in the simultaneous training of two neural networks: a generator network (G) and a discriminator network (D). The generator network creates synthetic data (I_G), while the discriminator network attempts to distinguish between real (I_R) and generated data (I_G). This dynamic interaction allows the generator network to continuously improve its synthetic data generation ability.
+The GANs lies in the simultaneous training of two neural networks: a generator network (G) and a discriminator network (D). The generator network creates synthetic data (I_G), while the discriminator network attempts to distinguish between real (I_R) and generated data (I_G). This dynamic interaction allows the generator network to continuously improve its synthetic data generation ability.
 
 
 These papers provide a great starting point for understanding the technical details of GANs and how they work.
