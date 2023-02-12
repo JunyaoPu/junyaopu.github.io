@@ -33,3 +33,6 @@ These papers provide a great starting point for understanding the technical deta
 <a href="https://arxiv.org/pdf/1710.10196.pdf">Progressive Growing of GANs for Improved Quality, Stability, and Variation</a>
 
 <a href="https://arxiv.org/pdf/1812.04948.pdf">StyleGAN: Generative Adversarial Networks with Style-based Generator Architecture for Flexible Image Synthesis</a>
+
+# What's next
+Hands-on projects that focus on image generation and style transfer using Generative Adversarial Networks (GANs).
