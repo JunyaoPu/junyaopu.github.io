@@ -27,6 +27,7 @@ The core of GANs lies in the simultaneous training of two neural networks: a gen
 
 
 These papers provide a great starting point for understanding the technical details of GANs and how they work.
+
 <a href="https://arxiv.org/pdf/1406.2661.pdf">Generative Adversarial Networks</a>
 
 <a href="https://arxiv.org/pdf/1710.10196.pdf">Progressive Growing of GANs for Improved Quality, Stability, and Variation</a>
