@@ -1,7 +1,7 @@
 ---
 layout: single
 title:  "AI Dev Day 6: Deploying Object Detection Model on Edge Devices"
-date:   2022-11-05- 00:43:00 -0500
+date:   2022-05-15- 00:43:00 -0500
 categories: AI
 collection: AI
 classes: wide

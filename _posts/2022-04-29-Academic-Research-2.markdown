@@ -1,7 +1,7 @@
 ---
 layout: single
 title:  "Research Day 2: A Cheat Sheet for My Master's Thesis (2)"
-date:   2022-06-01- 00:43:00 -0500
+date:   2022-04-29- 00:43:00 -0500
 categories: Research
 collection: Research
 classes: wide
