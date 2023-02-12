@@ -1,7 +1,7 @@
 ---
 layout: single
 title:  "Real-time AI Vision System: Object Detection. #AWS #NVIDIA Jetson #ROS2 #TensorRT"
-date:   2021-05-15 00:43:00 -0500
+date:   2022-05-15 00:43:00 -0500
 collection: projects
 author_profile: true
 toc: true
