@@ -46,14 +46,24 @@ Here are total 21 classes including the background in the PASCAL VOC Dataset (20
   display: block;
   margin-left: auto;
   margin-right: auto;
-  min-width: 55%;
-  max-width: 55%;
+  min-width: 45%;
+  max-width: 45%;
   width: 50vw;
 }
 </style>
 <img class="center" src="/assets/images/project_SEG/VOC_classes.png" alt="VOC_classes."> 
 
 And some sample input images and segmentation masks from the PASCAL VOC Dataset (2012).
+<style>
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  min-width: 70%;
+  max-width: 70%;
+  width: 50vw;
+}
+</style>
 <img class="center" src="/assets/images/project_SEG/VOC_sampels.png" alt="VOC_sampels."> 
 
 # Demo
