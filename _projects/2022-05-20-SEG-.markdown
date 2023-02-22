@@ -40,17 +40,31 @@ The training phase was executed on an AWS EC2 cloud server utilizing PyTorch/Pyt
 # PASCAL VOC Dataset
 The PASCAL VOC (Visual Object Classes) dataset also includes annotations for semantic segmentation. Semantic segmentation is the task of labeling every pixel in an image with a corresponding class label, such as "person," "car," or "background."
 Here are total 21 classes including the background in the PASCAL VOC Dataset (2012).
-<style>
-.center {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  min-width: 45%;
-  max-width: 45%;
-  width: 50vw;
-}
-</style>
-<img class="center" src="/assets/images/project_SEG/VOC_classes.png" alt="VOC_classes."> 
+```
+VOC_CLASSES = [
+    "background",
+    "aeroplane",
+    "bicycle",
+    "bird",
+    "boat",
+    "bottle",
+    "bus",
+    "car",
+    "cat",
+    "chair",
+    "cow",
+    "diningtable",
+    "dog",
+    "horse",
+    "motorbike",
+    "person",
+    "potted plant",
+    "sheep",
+    "sofa",
+    "train",
+    "tv/monitor",
+]
+```
 
 And some sample input images and segmentation masks from the PASCAL VOC Dataset (2012).
 <style>
