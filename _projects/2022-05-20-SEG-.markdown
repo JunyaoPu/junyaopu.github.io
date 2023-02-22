@@ -11,32 +11,6 @@ header:
 ---
 I trained a Unet model on the PASCAL VOC Dataset (2012) using an AWS EC2 cloud server for my project. After that, I deployed the YOLO object detection model on an NVIDIA Jetson AGX Xavier hardware using ROS2 C/C++ and TensorRT C/C++. The deployed model is capable of processing input RGB images from a Logitech webcam at a speed of 55 frames per second.
 
-# Setup
-- AWS access for EC2 (p3.2xlarge)
-
-- NVIDIA Jetson AGX Xavier (JetPack 4.5)
-
-- ROS2 installed (Eloquent)
-
-- Logitech C920 Webcam HD Pro
-
-- A monitor 
-
-# Workflow
-The training phase was executed on an AWS EC2 cloud server utilizing PyTorch/Python. An Onnx file was utilized as a connector to transfer the trained model to the deployment hardware. The deployment phase was performed on an NVIDIA Jetson AGX Xavier using ROS2 C/C++ and TensorRT C/C++, as the C/C++ programming language was selected for its exceptional speed for input pre-processing and output post-processing.
-
-<style>
-.center {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  min-width: 90%;
-  max-width: 90%;
-  width: 50vw;
-}
-</style>
-<img class="center" src="/assets/images/project_OD/Task_1.png" alt="The task."> 
-
 # PASCAL VOC Dataset
 The PASCAL VOC (Visual Object Classes) dataset also includes annotations for semantic segmentation. Semantic segmentation is the task of labeling every pixel in an image with a corresponding class label, such as "person," "car," or "background."
 Here are total 21 classes including the background in the PASCAL VOC Dataset (2012).
@@ -72,12 +46,39 @@ And some sample input images and segmentation masks from the PASCAL VOC Dataset 
   display: block;
   margin-left: auto;
   margin-right: auto;
-  min-width: 70%;
-  max-width: 70%;
+  min-width: 90%;
+  max-width: 90%;
   width: 50vw;
 }
 </style>
 <img class="center" src="/assets/images/project_SEG/VOC_sampels.png" alt="VOC_sampels."> 
+
+# Setup
+- AWS access for EC2 (p3.2xlarge)
+
+- NVIDIA Jetson AGX Xavier (JetPack 4.5)
+
+- ROS2 installed (Eloquent)
+
+- Logitech C920 Webcam HD Pro
+
+- A monitor 
+
+# Workflow
+The training phase was executed on an AWS EC2 cloud server utilizing PyTorch/Python. An Onnx file was utilized as a connector to transfer the trained model to the deployment hardware. The deployment phase was performed on an NVIDIA Jetson AGX Xavier using ROS2 C/C++ and TensorRT C/C++, as the C/C++ programming language was selected for its exceptional speed for input pre-processing and output post-processing.
+
+<style>
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  min-width: 90%;
+  max-width: 90%;
+  width: 50vw;
+}
+</style>
+<img class="center" src="/assets/images/project_OD/Task_1.png" alt="The task."> 
+
 
 # Demo
 
