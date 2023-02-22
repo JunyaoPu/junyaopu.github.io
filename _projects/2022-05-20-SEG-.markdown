@@ -1,0 +1,42 @@
+---
+layout: single
+title:  "Real-time AI Vision System: Semantic Segmentation."
+date:   2022-05-20 00:43:00 -0500
+collection: projects
+author_profile: true
+toc: true
+classes: wide
+header:
+    teaser: /assets/images/project_OD/test_1.png
+---
+
+This is my personal project where I trained a YOLO (v4) model on the COCO dataset using an AWS EC2 cloud server, and deployed the YOLO object detection model on an NVIDIA Jetson AGX Xavier hardware with ROS2 C/C++ and TensorRT C/C++, delivering 68 frames per second with input RGB images from a Logitech webcam.
+
+# Setup
+- AWS access for EC2 (p3.2xlarge)
+
+- NVIDIA Jetson AGX Xavier (JetPack 4.5)
+
+- ROS2 installed (Eloquent)
+
+- Logitech C920 Webcam HD Pro
+
+- A monitor 
+
+# Workflow
+The training phase was executed on an AWS EC2 cloud server utilizing PyTorch. An Onnx file was utilized as a connector to transfer the trained model to the deployment hardware. The deployment phase was performed on an NVIDIA Jetson AGX Xavier using ROS2 and TensorRT, as the C/C++ programming language was selected for its exceptional speed for input pre-processing and output post-processing.
+
+<style>
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  min-width: 90%;
+  max-width: 90%;
+  width: 50vw;
+}
+</style>
+<img class="center" src="/assets/images/project_OD/Task_1.png" alt="The task."> 
+
+# Demo
+
