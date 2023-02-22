@@ -10,7 +10,7 @@ header:
     teaser: /assets/images/project_OD/test_1.png
 ---
 
-This is my personal project where I trained a Unet model on the PASCAL VOC Dataset (2012) using an AWS EC2 cloud server, and deployed the semantic segmentation model on an NVIDIA Jetson AGX Xavier hardware with ROS2 C/C++ and TensorRT C/C++, delivering 55 frames per second with input RGB images from a Logitech webcam.
+This is my project where I trained a Unet model on the PASCAL VOC Dataset (2012) using an AWS EC2 cloud server, and deployed the semantic segmentation model on an NVIDIA Jetson AGX Xavier hardware with ROS2 C/C++ and TensorRT C/C++, delivering 55 frames per second with input RGB images from a Logitech webcam.
 
 # Setup
 - AWS access for EC2 (p3.2xlarge)
@@ -46,8 +46,8 @@ Here are total 21 classes including the background in the PASCAL VOC Dataset (20
   display: block;
   margin-left: auto;
   margin-right: auto;
-  min-width: 90%;
-  max-width: 90%;
+  min-width: 55%;
+  max-width: 55%;
   width: 50vw;
 }
 </style>
