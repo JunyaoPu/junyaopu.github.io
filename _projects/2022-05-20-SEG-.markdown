@@ -9,9 +9,9 @@ classes: wide
 header:
     teaser: /assets/images/project_OD/test_1.png
 ---
-I trained a Unet model on the PASCAL VOC Dataset (2012) using an AWS EC2 cloud server for my project. After that, I deployed the YOLO object detection model on an NVIDIA Jetson AGX Xavier hardware using ROS2 C/C++ and TensorRT C/C++. The deployed model is capable of processing input RGB images from a Logitech webcam at a speed of 55 frames per second.
+I trained a Unet model on the PASCAL VOC Dataset (2012) using an AWS EC2 cloud server for my project. After that, I deployed the segmentation model on an NVIDIA Jetson AGX Xavier hardware using ROS2 C/C++ and TensorRT C/C++. The deployed model is capable of processing input RGB images from a Logitech webcam at a speed of 55 frames per second.
 
-# PASCAL VOC Dataset
+# The PASCAL VOC Dataset
 The PASCAL VOC (Visual Object Classes) dataset also includes annotations for semantic segmentation. Semantic segmentation is the task of labeling every pixel in an image with a corresponding class label, such as "person," "car," or "background."
 Here are total 21 classes including the background in the PASCAL VOC Dataset (2012).
 ```
@@ -52,6 +52,11 @@ And some sample input images and segmentation masks from the PASCAL VOC Dataset 
 }
 </style>
 <img class="center" src="/assets/images/project_SEG/VOC_sampels.png" alt="VOC_sampels."> 
+
+# The Training Result
+The segmentation model was trained on an AWS EC2 cloud server using PyTorch and 2 GPUs. The dataset was split into 70% for training, 20% for validation, and 10% for testing. The training was stopped at the maximum number of epochs set to 200.
+
+Here are some examples of the model's inference results, and they look very good.
 
 # Setup
 - AWS access for EC2 (p3.2xlarge)
