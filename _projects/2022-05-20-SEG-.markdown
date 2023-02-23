@@ -9,7 +9,7 @@ classes: wide
 header:
     teaser: /assets/images/project_SEG/SEG.png
 ---
-I trained a Unet model on the PASCAL VOC Dataset (2012) using an AWS EC2 cloud server for my project. After that, I deployed the segmentation model on an NVIDIA Jetson AGX Xavier hardware using ROS2 C/C++ and TensorRT C/C++. The deployed model is capable of processing input RGB images from a Logitech webcam at a speed of 55 frames per second.
+I trained a Unet model on the PASCAL VOC Dataset (2012) using an AWS EC2 cloud server for my project. After that, I deployed the segmentation model on an NVIDIA Jetson AGX Xavier hardware using ROS2 C/C++ and TensorRT C/C++. The deployed model is capable of processing input RGB images from a Logitech webcam at a speed of 55 frames per second on the NVIDIA Jetson AGX Xavier.
 
 # The PASCAL VOC Dataset
 The PASCAL VOC (Visual Object Classes) dataset also includes annotations for semantic segmentation. Semantic segmentation is the task of labeling every pixel in an image with a corresponding class label, such as "person," "car," or "dog."
