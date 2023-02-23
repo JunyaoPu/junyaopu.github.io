@@ -6,7 +6,7 @@ categories: AI
 collection: AI
 classes: wide
 header:
-    teaser: /assets/images/ai_day6/test_2.png
+    teaser: /assets/images/project_SEG/SEG.png
 --- 
 Recently, I spent a few days rebuilding a real-time Semantic Segmentation system on the NVIDIA Jetson AGX Xavier. This project served as a refresher on deploying a Semantic Segmentation model on an edge device, using TensorRT and CUDA to achieve optimal performance.
 
