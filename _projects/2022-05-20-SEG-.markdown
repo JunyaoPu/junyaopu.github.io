@@ -1,6 +1,6 @@
 ---
 layout: single
-title:  "Real-time AI Vision System (2): Semantic Segmentation."
+title:  "Real-time AI Vision System: Semantic Segmentation."
 date:   2022-05-20 00:43:00 -0500
 collection: projects
 author_profile: true
