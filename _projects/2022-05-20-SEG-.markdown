@@ -59,7 +59,7 @@ The segmentation model was trained on an AWS EC2 cloud server using PyTorch and 
 Here are some examples of the model's inference results, and they look very good.
 
 # Setup
-- AWS access for EC2 (p3.2xlarge)
+- AWS access for EC2 
 
 - NVIDIA Jetson AGX Xavier (JetPack 4.5)
 
