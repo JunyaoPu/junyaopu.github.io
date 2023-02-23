@@ -1,6 +1,6 @@
 ---
 layout: single
-title:  "AI Dev Day 8: Deploying Semantic Segmentation Model on Edge Devices"
+title:  "AI Dev Day 8: Deploying Semantic Segmentation Model on Edge Devices and ROS Platform"
 date:   2022-12-30- 00:43:00 -0500
 categories: AI
 collection: AI

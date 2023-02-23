@@ -1,6 +1,6 @@
 ---
 layout: single
-title:  "AI Dev Day 6: Deploying Object Detection Model on Edge Devices"
+title:  "AI Dev Day 6: Deploying Object Detection Model on Edge Devices and ROS Platform"
 date:   2022-05-15- 00:43:00 -0500
 categories: AI
 collection: AI
