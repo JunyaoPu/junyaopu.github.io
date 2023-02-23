@@ -67,7 +67,7 @@ Here are some examples of the model's inference results, and they look very good
   width: 50vw;
 }
 </style>
-<img class="center" src="/assets/images/project_OD/SEG.png" alt="SEG."> 
+<img class="center" src="/assets/images/project_SEG/SEG.png" alt="SEG."> 
 # Setup
 - AWS access for EC2 
 
