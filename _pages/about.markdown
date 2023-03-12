@@ -6,7 +6,7 @@ author_profile: true
 #classes: wide
 #toc: true
 ---
-I am a AI/ML engineer. 
+I am an AI/ML engineer. 
 
 I joined <a href="https://northstar-robotics.com/">Northstar Robotics<a/> in 2021 as a Machine Learning Engineer, leading the development of AI vision using segmentation and object detection algorithms. In 2022, I joined <a href="https://jcatechnologies.com/">JCA Technologies<a/> as a Perception Engineer, constructing AI vision pipelines for off-highway autonomous systems.
 
