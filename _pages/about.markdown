@@ -12,6 +12,10 @@ I joined <a href="https://northstar-robotics.com/">Northstar Robotics<a/> in 202
 
 I earned my M.Sc in Electrical Engineering from the University of Manitoba, with a focus on deep learning and tensor decomposition methods. My graduate research involved designing and implementing a convolutional neural network using tensor-train decomposition, as detailed in my thesis: <a href="https://mspace.lib.umanitoba.ca/handle/1993/36582">Design and implementation of a convolutional neural network using tensor-train decomposition<a/>
 
+Skills:<br />
+PyTorch/Python, C/C++, CUDA C/C++, TensorRT, NVIDIA Jetson Platform, ROS2.
+
+
 Graduate-Level Course:<br />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Deep Learning with Convolutional Neural Networks (Grade A)<br />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Estimation Theory (Grade A)<br />
