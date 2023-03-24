@@ -21,7 +21,7 @@ entries_layout: list
 
 <div class="quoty-text">
 
-I am working in <b>AI research and development</b>, with a focus on creating real-time AI vision systems for edge hardware such as the NVIDIA Jetson family. Additionally, I have a strong interest in <b>large language model</b> and <b>generative AI</b> with deep learning.
+As an <b>AI researcher and developer</b>, I specialize in creating <b>real-time AI vision systems</b> for edge hardware, specifically for the <b>NVIDIA Jetson family</b>. My work involves leveraging cutting-edge deep learning techniques to build efficient and effective computer vision algorithms that can operate on resource-constrained devices. In addition, I have a keen interest in <b>large language models</b> and <b>generative AI</b>, and enjoy exploring the possibilities they offer for enhancing human-machine interactions.
 
 </div>
 <hr>
