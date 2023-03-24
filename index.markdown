@@ -21,7 +21,7 @@ entries_layout: list
 
 <div class="quoty-text">
 
-I am working in <b>AI research and development</b>, with a focus on creating real-time AI vision systems for edge hardware such as the NVIDIA Jetson family. Additionally, I have a strong interest in <b>natural language processing</b> and <b>generating simulated images and videos</b> using deep learning.
+I am working in <b>AI research and development</b>, with a focus on creating real-time AI vision systems for edge hardware such as the NVIDIA Jetson family. Additionally, I have a strong interest in <b>large language model</b> and <b>generative AI</b> with deep learning.
 
 </div>
 <hr>
